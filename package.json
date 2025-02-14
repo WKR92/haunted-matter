@@ -11,5 +11,8 @@
   "dependencies": {
     "@astrojs/mdx": "^4.0.8",
     "astro": "^5.2.5"
+  },
+  "devDependencies": {
+    "sass-embedded": "^1.85.0"
   }
 }
