@@ -1,3 +1,68 @@
+# Table of Contents
+
+- [Base](#base)
+    - [For whom](#for-whom)
+    - [Core Mechanics](#core-mechanics)
+        - [Advantages & Disadvantages](#advantages--disadvantages)
+        - [Destiny Points](#destiny-points)
+        - [Madness Points](#madness-points)
+    - [Traits](#traits)
+    - [HP, Inventory, and Fatigue](#hp-inventory-and-fatigue)
+    - [Status Effects](#status-effects)
+    - [Damage](#damage)
+        - [Critical Damage](#critical-damage)
+        - [Area Damage](#area-damage)
+        - [Resistances & Vulnerabilities](#resistances--vulnerabilities)
+        - [Scars](#scars)
+    - [Weapons and Armor](#weapons-and-armor)
+        - [Melee Weapons](#melee-weapons)
+        - [Ranged Weapons](#ranged-weapons)
+        - [Unarmed & Improvised Weapons](#unarmed--improvised-weapons)
+        - [Conditions on Hit](#conditions-on-hit)
+        - [Armor](#armor)
+    - [Powers (Specialities)](#powers-specialities)
+    - [Magic](#magic)
+        - [Spellcasting Mechanics](#spellcasting-mechanics)
+    - [Combat](#combat)
+        - [General Rules](#general-rules)
+        - [Hiding in Combat](#hiding-in-combat)
+        - [Powerful Enemies & Bosses](#powerful-enemies--bosses)
+        - [Morale](#morale)
+        - [Conditions](#conditions)
+        - [Organized Groups](#organized-groups)
+        - [Equipment Breakage](#equipment-breakage)
+        - [Enemy Reactions (GM Guidelines)](#enemy-reactions-gm-guidelines)
+    - [Character](#character)
+        - [Advancement](#advancement)
+        - [Character creation](#character-creation)
+        - [Races](#races)
+- [Advanced rules](#advanced-rules)
+    - [Moves](#moves)
+    - [Other Mechanics](#other-mechanics)
+        - [Group Rolls](#group-rolls)
+        - [Exploration & Travels](#exploration--travel)
+        - [Chase](#chase)
+    - [Interactions with the Outside World](#interactions-with-the-outside-world)
+        - [Items](#items)
+        - [Utility Items](#utility-items)
+        - [Medical Supplies](#medical-supplies)
+        - [Potions](#potions)
+        - [Decoctions](#decoctions)
+        - [Tactical Gear](#tactical-gear)
+        - [Jaruga’s Wonders](#jarugas-wonders)
+        - [What PCs Can Find](#what-pcs-can-find)
+    - [Crafting](#crafting)
+        - [Alchemy](#alchemy)
+        - [Herbalism](#herbalism--apothecary)
+        - [Crafting Technology](#crafting-technology)
+    - [Interactive Elements](#interactive-elements)
+        - [Traps](#traps)
+    - [End of session](#end-of-session)
+    - [For the GM - how to run](#for-the-gm--how-to-run)
+        - [Building Tension](#building-tension)
+        - [Building Fights](#building-fights-as-the-gm)
+        - [Zone Effects](#zone-effects)
+
 # Base
 
 ## For whom
@@ -209,12 +274,12 @@ Each character has a defined level (1–4) in every trait and rolls that many di
 
 ### **Critical Damage**
 
-- These are actual physical injuries.
-- Roll **3 critical damage dice**:
-    - **6** – no effect.
-    - **4–5** – gain 3 **fatigue** (up to max 9), lose 1 critical damage die, remain standing.
-    - **1–3** – lose 1 critical die, fall unconscious. If no one stabilizes you before your next turn → you die.
-- Critical damage dice return after **one week of rest**.
+- Actual physical injuries.
+- You roll 3 **critical damage dice**:
+    - **6**: no effect.
+    - **4–5**: gain +3 **fatigue** (max 9), lose 1 **critical damage die**, and remain standing.
+    - **1–3**: lose 1 **critical damage die**, fall unconscious. If no one heals you by your next turn → you die. Out of combat → only one person may attempt your rescue. In both cases they must get a full success on a **medicine** test.
+- Critical damage dice return after a **week of rest**.
 
 ---
 
@@ -1742,9 +1807,9 @@ PCs can create **tactical gear**. To do so, they must:
 
 ---
 
-### Interactive Elements
+## Interactive Elements
 
-#### Traps
+### Traps
 
 - Traps are placed to kill or effectively stop intruders. They should inspire terror, so they must always be lethal or impose status effects.
 - PCs roll **Investigation** to detect a trap only if they explicitly declare they’re looking for one.
@@ -1767,7 +1832,7 @@ PCs can create **tactical gear**. To do so, they must:
 
 ---
 
-#### Riddles / Puzzles
+### Riddles / Puzzles
 
 - If PCs have no idea how to solve a riddle or puzzle the GM has set, they may attempt to overcome it with a **group test** on **Mind**.
     - If they succeed, they earn one clue for each **6** rolled.

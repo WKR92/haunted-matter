@@ -26,11 +26,11 @@ Every Game Master eventually strives to craft a **system, world, or adventures**
 
 #### **What makes it special?**
 
-**A dark, low-magic, mystical world** – brutal, immersive, and filled with moral dilemmas.  
-**A survival-driven experience** – pseudo-realism, scarcity, and tough choices define the gameplay.  
-**Fast and deadly mechanics** – action is quick and dangerous but allows for strategic depth.  
-**Player-driven storytelling** – the world reacts, choices matter, and consequences are real.  
-**Adventures that challenge the mind and morality** – no simple hack-and-slash solutions.
+- **A dark, low-magic, mystical world** – brutal, immersive, and filled with moral dilemmas.  
+- **A survival-driven experience** – pseudo-realism, scarcity, and tough choices define the gameplay.  
+- **Fast and deadly mechanics** – action is quick and dangerous but allows for strategic depth.  
+- **Player-driven storytelling** – the world reacts, choices matter, and consequences are real.  
+- **Adventures that challenge the mind and morality** – no simple hack-and-slash solutions.
 
 This is a **dark, harsh, and engaging fantasy world**, breaking away from traditional genre conventions. While humor has its place, the intended tone is **serious and immersive**.
 
@@ -38,17 +38,19 @@ This is a **dark, harsh, and engaging fantasy world**, breaking away from tradit
 
 ### **How does it play?**
 
-The game mechanics are **simple but flexible**, allowing for creativity in problem-solving. Combat is **fast, dangerous, and strategic**, but **character progression remains meaningful**. Players grow, but never to the point where a lone warrior could fearlessly take on a group of ruthless cutthroats in a dark alley.
+The game mechanics are **simple but flexible**, encouraging creativity in problem-solving. Combat is **fast, dangerous, and semi-narrative**, but **character progression remains meaningful**. Growth is slow and intentional - powers are often not mechanical. You’ll get stronger, but never enough to walk alone into a mob and expect to come out clean.
 
-Adventures are my **favorite part** of this project. This site exists **so more people can play them and share their thoughts**. I experiment with storytelling techniques, aiming to **ignite engagement and push boundaries**. These are never trivial tales where brute force is the only answer. Instead, they present players with **complex, morally challenging, and thought-provoking dilemmas**.
+Adventures are my **favorite part** of this project. This site exists **so more people can play them and share their thoughts**. I experiment with storytelling techniques, aiming to **ignite engagement and push boundaries**. These are never trivial tales where brute force is the only answer. Instead, they present players with **complex, morally challenging, and thought-provoking dilemmas**. And the world? It remembers.
 
-At the heart of everything is the belief that **story comes first** – but it is a **story about the players**. **Narrative always takes precedence over mechanics**, and the world itself is **alive and ever-changing**.
+At the heart of everything is the belief that **we play a story** – but it is a **story about the players**. **Narrative always takes precedence over mechanics**, and the world itself is **alive and ever-changing**.
+
+Each adventure is a **pressure cooker**: morally loaded, narratively dense, and built to challenge players beyond hit points and damage numbers. You won’t win by optimizing. You win by committing.
 
 ---
 
 ### **Join the Journey!**
 
-**Download a free adventure and experience the world for yourself!**  
+**Check a free adventure and experience the world for yourself!**  
 **Tried my system? Share your experience – I’d love to hear your thoughts!**
 
 Welcome to **Haunted Matter** – let’s tell unforgettable stories together.
