@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Globalne style */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #121212;
   color: #ffffff;
   margin: 0;
@@ -11,7 +11,7 @@ body {
 
 /* Kontener */
 .container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
   min-height: calc(100vh - 60px);
@@ -75,4 +75,50 @@ footer {
   padding: 20px 0;
   font-size: 14px;
   color: #bbbbbb;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5rem;
+}
+
+h1 {
+  color: #ffd700;
+  /* złoty */
+}
+
+h2 {
+  color: #ffeb3b;
+  /* jaskrawy żółty */
+}
+
+h3 {
+  color: #fff176;
+  /* jasny żółty */
+}
+
+h4 {
+  color: #fffa87;
+  /* jeszcze jaśniejszy */
+}
+
+h5 {
+  color: #fffacd;
+  /* lemon chiffon – pastelowo */
+}
+
+h6 {
+  color: #ffffe0;
+  /* light yellow – najjaśniejszy żółty czytelny na czarnym tle */
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.17rem;
 }

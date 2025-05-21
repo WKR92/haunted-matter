@@ -1,5 +1,5 @@
 ---
-title: "Flesh Fills Spirit TTRPG"
+title: "Haunted Matter TTRPG"
 description: "home page"
 ---
 ### **Welcome to My World**
@@ -26,11 +26,11 @@ Every Game Master eventually strives to craft a **system, world, or adventures**
 
 #### **What makes it special?**
 
-✅ **A dark, low-magic, mystical world** – brutal, immersive, and filled with moral dilemmas.  
-✅ **A survival-driven experience** – pseudo-realism, scarcity, and tough choices define the gameplay.  
-✅ **Fast and deadly mechanics** – action is quick and dangerous but allows for strategic depth.  
-✅ **Player-driven storytelling** – the world reacts, choices matter, and consequences are real.  
-✅ **Adventures that challenge the mind and morality** – no simple hack-and-slash solutions.
+**A dark, low-magic, mystical world** – brutal, immersive, and filled with moral dilemmas.  
+**A survival-driven experience** – pseudo-realism, scarcity, and tough choices define the gameplay.  
+**Fast and deadly mechanics** – action is quick and dangerous but allows for strategic depth.  
+**Player-driven storytelling** – the world reacts, choices matter, and consequences are real.  
+**Adventures that challenge the mind and morality** – no simple hack-and-slash solutions.
 
 This is a **dark, harsh, and engaging fantasy world**, breaking away from traditional genre conventions. While humor has its place, the intended tone is **serious and immersive**.
 
@@ -48,7 +48,7 @@ At the heart of everything is the belief that **story comes first** – but it i
 
 ### **Join the Journey!**
 
-📥 **Download a free adventure and experience the world for yourself!**  
-💬 **Tried my system? Share your experience – I’d love to hear your thoughts!**
+**Download a free adventure and experience the world for yourself!**  
+**Tried my system? Share your experience – I’d love to hear your thoughts!**
 
-Welcome to **Flesh Fills Spirit** – let’s tell unforgettable stories together.
+Welcome to **Haunted Matter** – let’s tell unforgettable stories together.
