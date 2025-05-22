@@ -1273,7 +1273,7 @@ Extract information from a reluctant subject.
 | Face | Success (party manages well)                                           | Failure (party struggles)                                                                          |
 | ---- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | 6    | No trouble at all—gain 1 **fate** die.                                 | You blunder into predators. Prepare for an ambush.                                                 |
-| 5    | Mental respite: remove 1 point of stress/fatigue.                      | You lose a random item (roll d10 = occupied slots). Arcana can’t be lost—you’d notice immediately. |
+| 5    | Mental respite: remove 1 point of fatigue.                      | You lose a random item (roll d10 = occupied slots). Arcana can’t be lost—you’d notice immediately. |
 | 4    | You spot useful clues—ask the GM one site-related question.            | You barely held up mentally—gain **UNCERTAIN** status.                                             |
 | 3    | You learn the lay of the land—ask the GM one terrain-related question. | You’re too exhausted to rest tonight.                                                              |
 | 2    | You forage successfully—not need to spend rations for this leg.        | You suffer an accident—gain **WOUNDED** status.                                                    |
@@ -1696,7 +1696,7 @@ When PCs attempt actions obviously opposed by basic survival instincts (mass sla
 | ------------------------ | -------------------------------------------------------------------------- | ----------------- |
 | **1. Minor Obstacle**    | shopkeeper pleads for life, a few onlookers                                | 1d6 vs. target 5+ |
 | **2. Major Consequence** | guards will hunt you, mob will tear you apart, violates deeply held values | 2d6, need 11+     |
-| **3. Extreme Risk**      | public magic in a magic-ban state, murder before the royal guard           | 3d6, need 16+     |
+| **3. Extreme Risk**      | public magic in a magic-ban state, murder before the royal guard           | 3d6, need 17+     |
 
 - **Failure:** the PC physically cannot proceed; they must try a different approach.
 - **Success:** they carry on, but lose Reputation as the GM determines—and at risk levels 2 and 3 also gain 1 **madness point**.
@@ -1718,13 +1718,13 @@ The player **may** choose to ignore this roll, but doing so grants 1 **madness p
 
 1. **Against Dominant Authority** (king, emperor):
     - For example, when a guard orders PCs to bow before the king on the throne and they refuse, they must roll **Influence** before acting:
-    - Immediate **–2 Reputation** and +1 **stress** on any open defiance.
+    - Immediate **–2 Reputation** and +1 **fatigue** on any open defiance.
     - **Full success:** you refuse; your confidence shakes them—but the entire group suffers **disadvantage** on social rolls in that territory until Reputation improves by at least 1.
     - **Partial success:** you refuse but are forcefully expelled or combat breaks out.
     - **Failure:** you comply with the order.
 2. **Against Privileged Authority** (bishop, noble):
     - If, for instance, a bishop demands PCs show reverence in his temple and they crack a lewd joke, they must roll **Influence** before speaking:
-    - Immediate **–1 Reputation** and +1 **stress** for open defiance.
+    - Immediate **–1 Reputation** and +1 **fatigue** for open defiance.
     - **Full success:** you refuse; they bristle but grudgingly tolerate you.
     - **Partial success:** you refuse; you’re immediately driven out or face combat.
     - **Failure:** you comply.
