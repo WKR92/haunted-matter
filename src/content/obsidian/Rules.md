@@ -69,7 +69,7 @@
 
 **Haunted Matter** is for those who choose drama over simulation, story over mechanics, and player decisions over supernatural power. There are no levels, no classes, no builds, no flashy powers, no balance. There is risk, pseudo-realism, fluidity, minimalist rules, narrative thinking, and real consequences. It takes effort to learn, but it provides clear mechanics to keep the story grounded. This is a system for playing out a narrative.
 
-Every rule in this book can - and should - be broken and changed to smooth out the flow of play and make the game more enjoyable for everyone at the table. The GM has the final say.
+Rules are tools, not scripture. Break them whenever it helps the story breathe. The GM decides — always — but in service of the fiction, not authority.
 
 ---
 
@@ -275,10 +275,10 @@ Each character has a defined level (1–4) in every trait and rolls that many di
 ### **Critical Damage**
 
 - Actual physical injuries.
-- You roll 3 **critical damage dice**:
+- You roll your **critical damage dice**:
     - **6**: no effect.
     - **4–5**: gain +3 **fatigue** (max 9), lose 1 **critical damage die**, and remain standing.
-    - **1–3**: lose 1 **critical damage die**, fall unconscious. If no one heals you by your next turn → you die. Out of combat → only one person may attempt your rescue. In both cases they must get a full success on a **medicine** test.
+    - **1–3**: everything from the partial‐success result, but you fall unconscious. If nobody heals you before your next turn → you die. Out of combat → only one person may attempt your rescue. In both cases they must get a full success on a **Medicine** test.
 - Critical damage dice return after a **week of rest**.
 
 ---

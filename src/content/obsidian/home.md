@@ -46,6 +46,14 @@ At the heart of everything is the belief that **we play a story** – but it is 
 
 Each adventure is a **pressure cooker**: morally loaded, narratively dense, and built to challenge players beyond hit points and damage numbers. You won’t win by optimizing. You win by committing.
 
+My system blends elements of OSR, PbtA, and traditional design.
+From OSR it takes **lethality, minimalism, and "rulings over rules"**.
+From PbtA, the emphasis on **fiction-first resolution and meaningful partial successes**.
+From trad games, it borrows **clear stats, tactical choices, mechanical consequences**.
+But it answers to none of them. It plays like itself.
+
+Some say narrative play means improvising everything. I disagree. I write structured adventures, but endings are only assumed and open. The players decide what the story becomes — I just build the pressure.
+
 ---
 
 ### **Join the Journey!**

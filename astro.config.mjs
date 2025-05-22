@@ -4,5 +4,5 @@ import mdx from '@astrojs/mdx';
 export default defineConfig({
   integrations: [mdx()],
   site: 'https://wkr92.github.io',
-  base: 'flesh-fills-spirit',
+  base: 'haunted-matter',
 });
