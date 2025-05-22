@@ -1,0 +1,39 @@
+---
+import "../styles/global.scss";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Haunted Matter</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="/haunted-matter">Main</a>
+				<a href="/haunted-matter/lore">Lore</a>
+				<a href="/haunted-matter/adventures">Adventures</a>
+				<a href="/haunted-matter/mechanics">Mechanics</a>
+				<a href="/haunted-matter/general">General</a>
+				<a href="/haunted-matter/contact">Contact</a>
+			</nav>
+		</header>
+		
+    <aside style="width: 250px; overflow-y: auto; border-right: 1px solid #ccc; padding: 1rem;">
+      <ul>
+        <slot />
+      </ul>
+    </aside>
+		<main class="container">
+			<slot />
+		</main>
+
+		<footer>
+			<p>&copy; 2025 Haunted Matter TTRPG - all rights reserved</p>
+		</footer>
+	</body>
+</html>
