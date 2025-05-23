@@ -1,1 +1,1 @@
-h1{margin-bottom:2rem}
+h1{margin-bottom:2rem}.lore-mdx-container{display:flex;flex-direction:row-reverse}.lore-aside{width:30%;padding-right:'2rem';max-height:calc(100vh - 220px);position:sticky;top:85px;align-self:flex-start;border-left:1px solid #ccc;overflow-y:auto;scrollbar-width:none;-ms-overflow-style:none;padding-bottom:2rem}.lore-main{width:70%;padding-right:2rem}@media (max-width: 840px){.lore-mdx-container{flex-direction:column}.lore-aside{position:static;top:auto;max-height:none;border:none;padding-left:0}.lore-aside,.lore-main{width:100%}}

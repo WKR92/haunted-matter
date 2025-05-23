@@ -1,15 +1,11 @@
-h1 {
-  margin-bottom: 2rem;
-}
-
-.lore-mdx-container {
+.mechanics-mdx-container {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.lore-aside {
+.mechanics-aside {
   width: 30%;
-  padding-right: '2rem';
+  padding-left: 1rem;
   max-height: calc(100vh - 220px);
   position: sticky;
   top: 85px;
@@ -21,26 +17,24 @@ h1 {
   padding-bottom: 2rem;
 }
 
-.lore-main {
+.mechanics-main {
   width: 70%;
   padding-right: 2rem;
 }
 
 @media (max-width: 840px) {
-  .lore-mdx-container {
+  .mechanics-mdx-container {
     flex-direction: column;
   }
-
-  .lore-aside {
+  .mechanics-aside {
     position: static;
     top: auto;
     max-height: none;
     border: none;
     padding-left: 0;
   }
-
-  .lore-aside,
-  .lore-main {
+  .mechanics-aside,
+  .mechanics-main {
     width: 100%;
   }
 }
