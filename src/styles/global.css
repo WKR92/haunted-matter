@@ -148,3 +148,9 @@ a[href^="#"].active {
   /* intensywniejszy żółty */
   font-weight: bold;
 }
+
+@media (max-width: 840px) {
+  .container {
+    padding: 1rem;
+  }
+}
