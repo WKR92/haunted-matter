@@ -1,11 +1,11 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import './styles/lore.scss';
+import * as home from '../../content/obsidian/The World of Zaya.mdx';
+
+const { frontmatter, Content } = home;
 ---
-<Layout title="Lore">
-  <h1>Lore</h1>
-  <nav>
-    <ul>
-      <li>Content will be here</li>
-    </ul>
-  </nav>
+<Layout title={frontmatter.title}>
+  <h1>{frontmatter.title}</h1>
+  <Content />
 </Layout>
