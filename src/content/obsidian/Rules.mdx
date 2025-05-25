@@ -400,7 +400,7 @@ You can’t get more than 1 scar per combat.
 | **Light Crossbow**     | Reloads on a 1 on the main die; armor penetration 1                                                                         |
 | **Repeating Crossbow** | Reload after 3 shots; armor penetration 1                                                                                   |
 | **Hand Crossbow**      | Can be used with a melee weapon; 1 zone range; counts as melee **or** ranged attack; doesn’t reveal your position if hidden |
-| **Musket**             | On a 1 on the main die, gain the STUNNED condition; on 1–2, must reload; success = 3 damage; armor penetration 2            |
+| **Musket**             | On a 1 on the main die, gain the DEAFENED condition; on 1–2, must reload; success = 3 damage; armor penetration 2            |
 | **Pistol**             | Can be used with a melee weapon; reloads on a 1 on the main die; counts as melee **or** ranged attack                       |
 
 &nbsp;
@@ -411,7 +411,7 @@ You can’t get more than 1 scar per combat.
 
 - **Unarmed**: 1 damage per success (more only with the **Monk** power).
 - **Improvised weapons**: don’t require specialization, but deal **–2 base damage**.  
-   If the first attack is a **full success** and the enemy is **not powerful**, they fall unconscious.
+   If the first attack is a **full success** and the enemy is **not powerful**, they fall unconscious (must make sense).
 
 ---
 
@@ -475,7 +475,7 @@ You can’t get more than 1 scar per combat.
 ## Powers (Specialities)
 
 - Using a **power** costs 1 **fatigue**, unless stated otherwise.
-- Using a **power** takes up your turn.
+- The GM may alter the effects of a power or call for a roll in the interest of narrative integrity.
 
 ---
 
@@ -525,7 +525,7 @@ You can’t get more than 1 scar per combat.
 
 ### **Fictional Assumptions**
 
-- Magic is **rare, unwanted, and illegal**, known only to a few (priests, warlocks).
+- Magic is **rare, unwanted, and often illegal**, known only to a few (priests, warlocks).
 - Wizards are nearly extinct, and rituals require **multiple participants**.
 - Magic is seen as **disturbing and unknowable** – most people’s understanding of it is distorted or superstitious.
 - PCs casting spells must **justify it narratively** and **hide it** when possible.
@@ -565,11 +565,11 @@ If you roll **three 1s**, trigger the **Magical Catastrophe Table**, no matter t
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | You curse 100 square kilometers with a blight chosen by the GM.                                                                                                         |
 | 2   | You summon a powerful divine agent (random deity) that appears next to you.                                                                                             |
-| 3   | Everyone in your zone takes **4d6 unavoidable damage** as reality tears apart.                                                                                          |
+| 3   | Everyone in your zone takes **d20 unavoidable damage** (roll for each) as reality tears apart.                                                                                          |
 | 4   | A massive earthquake devastates 100 square kilometers: buildings collapse, trees are uprooted, waters flood.                                                            |
 | 5   | 100 square kilometers are shrouded in black clouds for a month: darkness, cold, crop failure.                                                                           |
 | 6   | You create a new **form** (see cosmology): a being or object that never existed before, nameless and incomprehensible. Describe its appearance. It appears next to you. |
-| 7   | Everyone in your zone ages **5d6 years**.                                                                                                                               |
+| 7   | Everyone in your zone ages **10d6 years**.                                                                                                                               |
 | 8   | Your exact wish comes true. You have 30 seconds to state it. The GM has the final say. Gain **1 madness point**.                                                        |
 
 &nbsp;
@@ -653,7 +653,7 @@ A cloak. Once per long rest, you may use the **Actor** power **without fatigue c
 
 - Combat happens either in **theater of the mind** or on a **zone grid**. It should stay fast and narrative-driven.
 - The battlefield is divided into **zones**—each zone represents a space like a corridor, room, or part of one. Moving from one zone to another takes one move. Each additional zone = one extra move. There are no distances within zones: if you're in the same zone, you can reach any opponent in melee.
-- **No initiative** – players act in order of **Dexterity + Perception – Fatigue**. If surprised, players must roll a **defensive test against danger** at the start.
+- **No initiative** – players act in order of **Dexterity + Perception – Fatigue**. If surprised, players must roll a **defensive test against danger** at the start of their first turn.
 - **Enemies don’t have turns** – they act only **in reaction** to player actions.
   - On a **partial success or failure**, their reaction succeeds.
   - On a **full success**, their attempt fails.
@@ -661,11 +661,12 @@ A cloak. Once per long rest, you may use the **Actor** power **without fatigue c
 - A PC can typically **move and take one action** per turn. You may move **double distance** if you do nothing else that turn.
 - You can **draw or switch weapons/items once per turn** for free.
 - Using an item (like a potion) **uses up your turn**.
+- If you do not interact with any character during your turn, roll **Dexterity** with advantage. The result determines enemy's reaction. Full success means no/failed reaction.
 - You may **ready an action** in response to a specific trigger (e.g., “I strike if someone steps through the doorway.”)
 - A **group** is a cluster of enemies acting as one unit for narrative clarity. If the group outnumbers the PCs or attacks from a safe range, their **base damage equals the number of members**, or the highest among them if applicable.
 - Instead of attacking, you can attempt **maneuvers** (e.g., blind, knockdown, shove). Repeating the same maneuver on the same target in consecutive turns = **disadvantage**. Maneuvers against **larger enemies** = **disadvantage**.
 - Maximum range of a **ranged weapon** = number of **Aiming** trait levels. Thrown weapons reach **1 zone beyond your own**. You can’t throw further. Throwing a **non-ranged** weapon = always roll just 1d6.
-- **Buying effects with successes**: If you score **multiple successes**, you may spend **1 fatigue per effect** to gain something extra (e.g., free maneuver, movement, item use).
+- **Buying effects with successes**: If you score **multiple successes**, you may spend **1 fatigue per effect** to gain something extra (e.g., free maneuver, movement, item use) - instead of dmg.
 - **Huge creatures** deal damage to **all nearby targets** and **can’t be affected by maneuvers**.
 - **Sustained effects** (e.g. concentration, flying, mounted combat) may break if:
   - **Main die** = 6 (1 for enemy) → effect ends.
@@ -694,7 +695,7 @@ A cloak. Once per long rest, you may use the **Actor** power **without fatigue c
 - Monsters are rare but terrifying.  
    At the start of combat with one, roll **Will**:
   - Partial success = gain **1 fatigue**.
-  - Failure = gain **FEARFUL** condition.
+  - Failure = gain **FRIGHTENED** condition.
 - Entering a boss’s zone often requires a **defensive roll**.
 - Bosses:
   - **Base damage: 3**
@@ -770,7 +771,7 @@ Special enemy units represented by **one marker per zone**. They don’t follow 
 
 ### **Equipment Breakage**
 
-When a PC rolls **three identical failures** (e.g. three 3s), roll 1d6 on the table below.  
+When a PC rolls **critical failure**, roll 1d6 on the table below
 Applies in addition to normal consequences. Affected gear is damaged **until repaired**.  
 **Arcana** can be damaged like any other item.
 
@@ -780,8 +781,8 @@ Applies in addition to normal consequences. Affected gear is damaged **until rep
 | 2   | Weapon | First 2 successes no longer count. |
 | 3   | Weapon | First success no longer counts.    |
 | 4   | Armor  | Lose 2 armor (including magical).  |
-| 5   | Armor  | Lose 3 armor.                      |
-| 6   | Armor  | Lose 4 armor.                      |
+| 5   | Armor  | Lose 3 armor (including magical).                      |
+| 6   | Armor  | Lose 4 armor (including magical).                      |
 
 &nbsp;
 
@@ -795,7 +796,7 @@ Applies in addition to normal consequences. Affected gear is damaged **until rep
   - **4–5** → Enemy performs a **soft move** (e.g., damage, maneuver, force defense roll).
   - **1–3** → Enemy makes a **hard move** (e.g., status, big attack, or **two soft moves**).
 - **Soft move**: light consequence that can’t be resisted. **Hard move**: serious threat that can be resisted.
-- Example: PC rolls 4 → deals damage → enemy attempts a hard move (status). PC rolls **Will**:
+- Example: PC rolls 4 → deals damage → enemy attempts a hard move (mental status). PC rolls **Will**:
   - 6 = avoids effect
   - 4–5 = takes status **or** damage
   - 1–3 = takes **both**
@@ -804,7 +805,7 @@ Applies in addition to normal consequences. Affected gear is damaged **until rep
   - **Strong** (e.g. knight, elite): 3 dice, 10–12 HP
   - **Boss** (e.g. demon, general): 4 dice, 15–20 HP
 - You may give special enemies **one unique ability**, e.g.:
-  - _Can pass through walls – reset_
+  - _Can pass through walls – reset (cost 1HP)_
   - _Walks on walls and ceilings_
   - _Immune to fire_
   - _Each damage die healed 1 HP_
@@ -886,7 +887,7 @@ At the end of each session, you gain **2 advancement points** (unless the GM rul
   - Can use a **bow or one-handed weapon** while climbing without penalty.
 - **Elf** - live up to 250 years
   - Recover **+1 extra fatigue** during all rests.
-  - Your senses are sharp – you always get **1 additional question** during **perception checks**.
+  - Your senses are sharp – you always get **1 additional question** during **I Uncover the Scene** move.
 
 ---
 
@@ -939,8 +940,9 @@ Spend “operation points” to act before time runs out.
 
 ### **I Steal** – **Sleight of Hand**
 
-- **Partial success**: you fail to steal the item but remain undetected—you can’t retry unless you pay 1 **fatigue**.
-- **Full success**: you steal without notice but lose 1 reputation, advance the Social Clock, and gain 3 **fatigue**.
+**Partial success**: 
+- you fail to steal the item but remain undetected—you can’t retry unless you pay 1 **fatigue**.
+- you steal without notice but lose 1 reputation, advance the Social Clock, and gain 3 **fatigue**.
 
 ---
 
@@ -1168,10 +1170,10 @@ GM can rule some lies impossible to sell (e.g. a king believing the queen has a 
 
 Rituals require sacrificing treasure, components, materials, and downtime, and privacy.
 
-- **Partial success**: you must also spend 2 advancement points or lose 2 HP forever.
+- **Partial success**: you must also spend 2 advancement points or lose 1 HP forever.
 - If targeting a person, you need something personal (e.g. a keepsake).
 - Ritual effects (GM determines final details):
-  - Brief audience with a high priest—3 questions.
+  - Brief audience with a deity servant—3 questions.
   - Remove a curse or dispel strong magic.
   - Place a curse—define with the GM.
   - Gain key narrative information.
