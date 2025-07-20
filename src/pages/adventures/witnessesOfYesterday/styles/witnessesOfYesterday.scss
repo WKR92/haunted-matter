@@ -1,0 +1,47 @@
+.main-header {
+  margin-bottom: 1rem;
+}
+
+.witnesses-of-yesterday-mdx-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.witnesses-of-yesterday-aside {
+  width: 30%;
+  padding-left: 1rem;
+  max-height: calc(100vh - 220px);
+  position: sticky;
+  top: 125px;
+  align-self: flex-start;
+  border-left: 1px solid #ccc;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-bottom: 2rem;
+}
+
+.witnesses-of-yesterday-main {
+  width: 70%;
+  padding-right: 2rem;
+}
+
+@media (max-width: 840px) {
+  .witnesses-of-yesterday-mdx-container {
+    flex-direction: column;
+  }
+
+  .witnesses-of-yesterday-aside {
+    position: static;
+    top: auto;
+    max-height: none;
+    border: none;
+    padding-left: 0;
+  }
+
+  .witnesses-of-yesterday-aside,
+  .witnesses-of-yesterday-main {
+    width: 100%;
+    padding-right: 0;
+  }
+}

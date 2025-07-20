@@ -1,0 +1,12 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import * as rules from '../../../content/obsidian/Witnesses of Yesterday.mdx';
+import './styles/witnessesOfYesterday.scss';
+
+const { frontmatter, Content } = rules;
+---
+
+<Layout title={frontmatter.title}>
+  <h1>{frontmatter.title}</h1>
+  <Content />
+</Layout>
