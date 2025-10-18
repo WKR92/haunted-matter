@@ -10,10 +10,6 @@
   - [Core Mechanics](#core-mechanics)
   - [Splinters](#splinters)
   - [Traits](#traits)
-    - [Physical](#physical)
-    - [Mental](#mental)
-    - [Social](#social)
-    - [Specializations](#specializations)
   - [HP, Inventory, and Fatigue](#hp-inventory-and-fatigue)
     - [Slots](#slots)
     - [Fatigue](#fatigue)
@@ -30,47 +26,28 @@
     - [Hit Points and Recovery](#hit-points-and-recovery)
     - [Critical Damage](#critical-damage)
     - [Crushing Damage](#crushing-damage)
-      - [Falling Damage](#falling-damage)
-      - [Area Damage](#area-damage)
+    - [Falling Damage](#falling-damage)
+    - [Area Damage](#area-damage)
     - [Damage Types](#damage-types)
     - [Resistance and Vulnerability](#resistance-and-vulnerability)
     - [Scars](#scars)
   - [Weapons and Armor](#weapons-and-armor)
     - [Weapons](#weapons)
-      - [Specialization](#specialization)
-      - [Melee Weapons](#melee-weapons)
-      - [Ranged Weapons](#ranged-weapons)
-      - [Bare Hands and Improvised Weapons](#bare-hands-and-improvised-weapons)
-      - [Conditions on Hit](#conditions-on-hit)
     - [Armor](#armor)
-      - [Physical Armor](#physical-armor)
-      - [Magical Armor](#magical-armor)
-      - [Armor Restoration](#armor-restoration)
-      - [Armor Penalties](#armor-penalties)
-      - [Armor Types](#armor-types)
   - [Powers (Specializations)](#powers-specializations)
   - [Magic](#magic)
     - [Narrative Premises](#narrative-premises)
     - [Spellcasting Mechanics](#spellcasting-mechanics)
     - [Example Spells](#example-spells)
     - [Side Effects](#side-effects)
-      - [Magical Catastrophe](#magical-catastrophe)
-      - [Corruption Clock](#corruption-clock)
-      - [Social Clock](#social-clock)
     - [Scrolls](#scrolls)
     - [How Magic Works — for GM Only](#how-magic-works-for-gm-only)
     - [Giving arcanas to players](#giving-arcanas-to-players)
     - [Special Magical Effect Mechanics](#special-magical-effect-mechanics)
-      - [Summon](#summon)
-      - [Copy](#copy)
-      - [Shapeshifting](#shapeshifting)
   - [Combat](#combat)
     - [General Rules](#general-rules)
     - [Conditions](#conditions)
     - [Organized Groups](#organized-groups)
-        - [**Squad**](#squad)
-        - [**Mob**](#mob)
-        - [**Swarm**](#swarm)
     - [Equipment Damage](#equipment-damage)
     - [Enemy Control by the GM](#enemy-control-by-the-gm)
     - [Zones and Their Effects](#zones-and-their-effects)
@@ -82,41 +59,36 @@
   - [End of Session](#end-of-session)
 - [Full rules](#full-rules)
   - [Moves](#moves)
-    - [**I act in Secret** — various —](#i-act-in-secret-various)
-    - [**I act Behind Their Backs** — **deception** —](#i-act-behind-their-backs-deception)
-    - [**I sneak by** — **stealth** —](#i-sneak-by-stealth)
-    - [**I steal** — **sleight of hand** —](#i-steal-sleight-of-hand)
-    - [**I Recall** — relevant knowledge (**mind, arcana, nature**, etc.) —](#i-recall-relevant-knowledge-mind-arcana-nature-etc)
-    - [**I Discover Reality** — **perception, survival, investigation, nature, mind**, and similar —](#i-discover-reality-perception-survival-investigation-nature-mind-and-similar)
-    - [**I Want Someone to Do Something for Me** — **persuasion, deception, intimidation, influence** —](#i-want-someone-to-do-something-for-me-persuasion-deception-intimidation-influence)
-    - [**I Want Someone to Change Their Beliefs** — **persuasion** —](#i-want-someone-to-change-their-beliefs-persuasion)
-    - [**I Know Someone Here** — **influence** —](#i-know-someone-here-influence)
-    - [**I Force an Event** — **influence** —](#i-force-an-event-influence)
-    - [**I have a feeling there’s more here** — **investigation** —](#i-have-a-feeling-theres-more-here-investigation)
-    - [**I instill fear** — **intimidation** —](#i-instill-fear-intimidation)
-    - [**I Perform** — **performance** —](#i-perform-performance)
-    - [**I Foresee the Future** — **religion** or **intuition** —](#i-foresee-the-future-religion-or-intuition)
-    - [**I Know How This Works** — **technology** —](#i-know-how-this-works-technology)
-    - [**I Lead the Way** — **survival** —](#i-lead-the-way-survival)
-    - [**I Pretend to Be Someone Else** — **deception**, **performance** —](#i-pretend-to-be-someone-else-deception-performance)
-    - [**I Sell a Lie** — **deception** —](#i-sell-a-lie-deception)
-    - [**I Perform a Ritual** — **religion, arcana** —](#i-perform-a-ritual-religion-arcana)
-    - [**I’m grasping at straws** — appropriate trait —](#im-grasping-at-straws-appropriate-trait)
-    - [**I Seduce** — **persuasion, influence, performance, deception** —](#i-seduce-persuasion-influence-performance-deception)
-    - [**I Try to Read Them** — **intuition** —](#i-try-to-read-them-intuition)
-    - [**I Push Through Difficult Terrain** — **resilience, athletics, survival, dexterity** —](#i-push-through-difficult-terrain-resilience-athletics-survival-dexterity)
-          - [ChatGPT powiedział:](#chatgpt-powiedział)
-    - [**I Steer** — **animal handling, technology** —](#i-steer-animal-handling-technology)
-    - [**I Interrogate** — **persuasion, intimidation** —](#i-interrogate-persuasion-intimidation)
+    - [I act in Secret](#i-act-in-secret--various)
+    - [I act Behind Their Backs](#i-act-behind-their-backs--deception)
+    - [I sneak by](#i-sneak-by--stealth)
+    - [I steal](#i-steal--sleight-of-hand)
+    - [I Recall](#i-recall--relevant-knowledge-mind-arcana-nature-etc)
+    - [I Discover Reality](#i-discover-reality--perception-survival-investigation-nature-mind-and-similar)
+    - [I Want Someone to Do Something for Me](#i-want-someone-to-do-something-for-me--persuasion-deception-intimidation-influence)
+    - [I Want Someone to Change Their Beliefs](#i-want-someone-to-change-their-beliefs--persuasion)
+    - [I Know Someone Here](#i-know-someone-here--influence)
+    - [I Force an Event](#i-force-an-event--influence)
+    - [I have a feeling there’s more here](#i-have-a-feeling-theres-more-here--investigation)
+    - [I instill fear](#i-instill-fear--intimidation)
+    - [I Perform](#i-perform--performance)
+    - [I Foresee the Future](#i-foresee-the-future--religion-or-intuition)
+    - [I Know How This Works](#i-know-how-this-works--technology)
+    - [I Lead the Way](#i-lead-the-way--survival)
+    - [I Pretend to Be Someone Else](#i-pretend-to-be-someone-else--deception-performance)
+    - [I Sell a Lie](#i-sell-a-lie--deception)
+    - [I Perform a Ritual](#i-perform-a-ritual--religion-arcana)
+    - [I’m grasping at straws](#im-grasping-at-straws--appropriate-trait)
+    - [I Seduce](#i-seduce--persuasion-influence-performance-deception)
+    - [I Try to Read Them](#i-try-to-read-them--intuition)
+    - [I Push Through Difficult Terrain](#i-push-through-difficult-terrain--resilience-athletics-survival-dexterity)
+    - [I Steer](#i-steer--animal-handling-technology)
+    - [I Interrogate](#i-interrogate--persuasion-intimidation)
   - [Other Mechanics](#other-mechanics)
     - [Group Rolls](#group-rolls)
     - [Opposed Tests](#opposed-tests)
-      - [**Disagreement**](#disagreement)
     - [Exploration](#exploration)
-      - [**15-Minute Framework**](#15-minute-framework)
-      - [**Sequential / Minor Explorations**](#sequential-minor-explorations)
     - [Chase](#chase)
-      - [**Quick Resolution — Catching Without a Full Chase**](#quick-resolution-catching-without-a-full-chase)
     - [Sequential Narrative Mechanics](#sequential-narrative-mechanics)
   - [Interactions with the External World](#interactions-with-the-external-world)
     - [Items](#items)
@@ -126,38 +98,29 @@
       - [Elixirs](#elixirs)
       - [Decotions](#decotions)
       - [Tactical Equipment](#tactical-equipment)
-          - [ChatGPT powiedział:](#chatgpt-powiedział-2)
       - [Technology](#technology)
       - [Wonders of Jaruga](#wonders-of-jaruga)
       - [Exotic Materials](#exotic-materials)
       - [What Can the P Find?](#what-can-the-p-find)
-        - [**Loot Table**](#loot-table)
+        - [Loot Table](#loot-table)
     - [Money](#money)
       - [General Rules](#general-rules-2)
       - [Wealth Levels](#wealth-levels)
-        - [1. Barely Surviving](#barely-surviving)
-        - [2. Poor _(starting level)_ (requires depositing **3 Treasures**)](#poor-starting-level-requires-depositing-3-treasures)
-        - [3. Common (requires depositing **5 Treasures**)](#common-requires-depositing-5-treasures)
-        - [4. With a Coin (requires depositing **8 Treasures**)](#with-a-coin-requires-depositing-8-treasures)
-        - [5. Doing Well (requires depositing **12 Treasures**)](#doing-well-requires-depositing-12-treasures)
-        - [6. Wealthy (requires depositing **20 Treasures**)](#wealthy-requires-depositing-20-treasures)
-        - [7. Magnate (requires depositing **30 Treasures**)](#magnate-requires-depositing-30-treasures)
       - [Treasures](#treasures)
       - [Table of goods](#table-of-goods)
     - [Travel and distances](#travel-and-distances)
     - [Downtime](#downtime)
-      - [**Standard Actions**](#standard-actions)
+      - [Standard Actions](#standard-actions)
       - [Romance](#romance)
     - [Reputation](#reputation)
       - [Influencing Reputation](#influencing-reputation)
     - [Respecting Authority and Social Values](#respecting-authority-and-social-values)
       - [Types of Authority](#types-of-authority)
       - [Natural Authority](#natural-authority)
-        - [Acting “Out of Character”](#acting-out-of-character)
-      - [Influence Tests Against Dominant Authority](#influence-tests-against-dominant-authority)
-      - [Influence Tests Against Privileged Authority](#influence-tests-against-privileged-authority)
-      - [Influence Tests Against Executive Authority](#influence-tests-against-executive-authority)
-      - [Influence Tests Against Threatening Authority](#influence-tests-against-threatening-authority)
+      - [Tests Against Dominant Authority](#influence-tests-against-dominant-authority)
+      - [Tests Against Privileged Authority](#influence-tests-against-privileged-authority)
+      - [Tests Against Executive Authority](#influence-tests-against-executive-authority)
+      - [Tests Against Threatening Authority](#influence-tests-against-threatening-authority)
   - [Crafting](#crafting)
     - [Alchemy](#alchemy)
     - [Herbalism / Apothecary](#herbalism-apothecary)
@@ -169,59 +132,9 @@
     - [Let the P Shape the World’s Details](#let-the-p-shape-the-worlds-details)
     - [How to Build an NPC](#how-to-build-an-npc)
     - [Building Tension](#building-tension)
-      - [Clocks – what are they?](#clocks-what-are-they)
-      - [Sample Clock Mechanics](#sample-clock-mechanics)
-        - [Immediate Pressure](#immediate-pressure)
-        - [Clocks in Combat](#clocks-in-combat)
-        - [Social Clocks](#social-clocks)
-        - [Passage of Time](#passage-of-time)
-      - [During Exploration](#during-exploration)
     - [Building Fights](#building-fights)
-      - [Fight Types](#fight-types)
-        - [1. Defense](#defense)
-        - [2. Difficult Terrain](#difficult-terrain)
-        - [3. Escape](#escape)
-        - [4. Domination](#domination)
-        - [5. Time Pressure](#time-pressure)
-        - [6. Destruction](#destruction)
-        - [7. Boss Fight](#boss-fight)
-        - [8. Hunt / Invisible Foes](#hunt-invisible-foes)
-        - [9. Combat in Motion](#combat-in-motion)
-        - [10. Chaos in a Crowd](#chaos-in-a-crowd)
-        - [11. Illusion Combat](#illusion-combat)
-        - [12. Severing Power](#severing-power)
-      - [Fight Tables](#fight-tables)
-          - [How to Use the Tables](#how-to-use-the-tables)
-          - [1. Fight Type (d12)](#fight-type-d12)
-          - [2. Hazard (d12)](#hazard-d12)
-          - [3. Opportunity (d12)](#opportunity-d12)
-          - [4. Fight Modifier (d12)](#fight-modifier-d12)
     - [Room Search Procedure](#room-search-procedure)
-      - [How to Use](#how-to-use)
-      - [Object Table (d6)](#object-table-d6)
-      - [Content Table (d6)](#content-table-d6)
-      - [NPC Reaction Table (d6)](#npc-reaction-table-d6)
-      - [Minimal Prep Example](#minimal-prep-example)
-    - [How to write scenarios — a thought process by example](#how-to-write-scenarios-a-thought-process-by-example)
-      - [Assumptions](#assumptions)
-      - [Core Motif](#core-motif)
-      - [Build a logical, not a linear structure](#build-a-logical-not-a-linear-structure)
-        - [The extra member comes from the count.](#the-extra-member-comes-from-the-count)
-        - [Who did the counting?](#who-did-the-counting)
-        - [Why does it worry anyone?](#why-does-it-worry-anyone)
-        - [How do the P find out?](#how-do-the-p-find-out)
-      - [Moral dilemma](#moral-dilemma)
-      - [Setting](#setting)
-      - [Strong start](#strong-start)
-      - [NPC list](#npc-list)
-      - [Scenes and locations](#scenes-and-locations)
-      - [Motivation](#motivation)
-      - [Combat](#combat-2)
-      - [Time to start the adventure](#time-to-start-the-adventure)
-      - [Rewards](#rewards)
-      - [What if the P break my structure?](#what-if-the-p-break-my-structure)
-      - [Where’s the mechanics?](#wheres-the-mechanics)
-      - [Summary](#summary)
+    - [How to write scenarios](#how-to-write-scenarios-a-thought-process-by-example)
 - [Farewell note](#farewell-note)
 
 </aside>
@@ -590,7 +503,7 @@ Each **P** has a level in every trait — from 1 to 4 — and rolls that many di
 
 ---
 
-#### Falling Damage
+### Falling Damage
 
 - Falling from a mount / breaking flight causes **fatigue**.
 - **Low height** (up to 1 story):  
@@ -602,7 +515,7 @@ Each **P** has a level in every trait — from 1 to 4 — and rolls that many di
 
 ---
 
-#### Area Damage
+### Area Damage
 
 - Always roll **at least 2 dice**. If you have only 1 from the attribute, add another (even under **disadvantage**).
 - Damage from successes must be **distributed among targets in range**:
@@ -1202,7 +1115,7 @@ Forms aren’t limited to animals — when learning another type, like a monster
 
 Special units represented as a single entity within zones, made up of multiple beings. They follow unique rules that override those of normal **groups**.
 
-##### **Squad**
+##### Squad
 
 - 15 HP, 3 Armor.
 - If you need its attributes (e.g., **Resilience**), roll 3d6.
@@ -1212,7 +1125,7 @@ Special units represented as a single entity within zones, made up of multiple b
 - Cannot be bypassed or targeted with **maneuvers**.
 - On a 1 on the **main die**, applies the **BLEEDING** condition.
 
-##### **Mob**
+##### Mob
 
 An angry, chaotic crowd of individuals.
 - Composed of 7 members.
@@ -1223,7 +1136,7 @@ An angry, chaotic crowd of individuals.
 - Cannot be targeted with **maneuvers**.
 - On a 1 on the **main die**, applies a **physical status**.
 
-##### **Swarm**
+##### Swarm
 
 A mass of weak, similar creatures that are dangerous in numbers.
 - Composed of 15 members.
@@ -1446,7 +1359,7 @@ One player — taking turns each session — must briefly summarize what happene
 - The GM always has the final word and may adjust the listed consequences for the sake of narrative flow.
 - These mechanics are **tools**, not mandates — the GM doesn’t need to use them if a more fitting resolution presents itself.
 
-### **I act in Secret** — various —
+### I act in Secret — various —
 
 If, for example, the **P** have broken into a place, every **failure** during their actions inside gives them **2 points**, and every **partial success** gives **1 point**.  
 When they accumulate **X points** (GM decides), someone arrives and notices them or similar consequences happen.
@@ -1456,7 +1369,7 @@ If a roll wouldn’t normally be required but there’s still something to disco
 
 Similarly, if a room contains a secret — for example, a loose floorboard hiding something underneath — the GM asks the same question about taking the risk. The **P** senses that something is there but won’t uncover what it is unless they pass the test. They may choose to give up instead, knowing they’are close to being caught.
 
-### **I act Behind Their Backs** — **deception** —
+### I act Behind Their Backs — deception —
 
 **P** earn points that let them perform actions before time runs out: **3 points** for a **full success**, **2 points** for a **partial success**. They can always buy **1 additional point** for **2 fatigue**.  
 Each point can be spent on a discreet action such as _reading a document unnoticed_, _taking a letter_, or _stealing a robe from a wardrobe_.
@@ -1466,7 +1379,7 @@ Each point can be spent on a discreet action such as _reading a document unnotic
 When using the **Acting Behind Their Backs** move, **P** don’t need to roll for object-related tests while searching a room if nothing protects the object — e.g., it isn’t locked or hidden. They automatically receive the **information** or **loot** instead, though their number of interactions is still limited.  
 If they do roll, a **partial success** costs **1 fatigue**, and a **failure** costs **2 fatigue**.
 
-### **I sneak by** — **stealth** —
+### I sneak by — stealth —
 
 The **P** attempts to move unseen or hide from enemies.  
 On a **partial success**, you must choose one of the following:
@@ -1474,13 +1387,13 @@ On a **partial success**, you must choose one of the following:
 - take **2 fatigue** and **splinter**,
 - or be **detected**.
 
-### **I steal** — **sleight of hand** —
+### I steal — sleight of hand —
 
 On a **partial success**:
 - You fail to take the item, but no one notices your attempt — you can’t try again.
 - Or, you succeed in taking the item unnoticed, but you lose **1 reputation point**, advance the *clocks** (if present), and gain **1 splinter** and **2 fatigue**.
 
-### **I Recall** — relevant knowledge (**mind, arcana, nature**, etc.) —
+### I Recall — relevant knowledge (mind, arcana, nature, etc.) —
 
 Use this when a **P** wants to check their knowledge about a religious ritual, encountered creature, historical figure, special formula, and similar topics.  
 A **full success** grants **3 points**.  
@@ -1504,7 +1417,7 @@ Normally, open tests can be made by two people. If both succeed and gain **I Rec
 - Has anyone tried to use/destroy/study it before? What happened?
 - Your own question.
 
-### **I Discover Reality** — **perception, survival, investigation, nature, mind**, and similar —
+### I Discover Reality — perception, survival, investigation, nature, mind, and similar —
 
 Use this when you try to learn something about a specific situation through action — for example, following tracks, examining a wall fresco, or studying a curse.  
 A **full success** grants **3 points**.  
@@ -1537,7 +1450,7 @@ It should always follow a specific in-fiction action — e.g., “I examine the 
 
 **GM tip:** if a scene contains important information you want the players to discover, use their questions from this move to reveal it — even if the answer stretches the topic slightly. Be flexible for the sake of good narrative flow.
 
-### **I Want Someone to Do Something for Me** — **persuasion, deception, intimidation, influence** —
+### I Want Someone to Do Something for Me — persuasion, deception, intimidation, influence —
 
 - The **P** must explain _how_ they’re using the chosen **trait**.
 - If the **P** lacks any kind of leverage over the target, they roll with **disadvantage**. Leverage can be, for example, valuable information or social authority.
@@ -1557,7 +1470,7 @@ It should always follow a specific in-fiction action — e.g., “I examine the 
 
 ---
 
-### **I Want Someone to Change Their Beliefs** — **persuasion** —
+### I Want Someone to Change Their Beliefs — persuasion —
 
 The **P** may try to convince someone to think differently about a personal belief or situation — the GM decides whether such an attempt is even possible (e.g., convincing a bandit to betray his leader).
 - The **P** must state which belief the target should change and how it makes sense in context.
@@ -1568,7 +1481,7 @@ The **P** may try to convince someone to think differently about a personal beli
 - You partially change their view — it resolves only part of the problem. The GM explains what has shifted.
     - Example: a cultist agrees that sacrificing the mayor’s daughter is wrong but insists another child must still be offered to the god.
 
-### **I Know Someone Here** — **influence** —
+### I Know Someone Here — influence —
 
 The **P** makes an **influence** test to determine whether they know someone in this location who could help with the current problem.
 - Only **2 P** may attempt this per location, and the roll can’t be repeated.
@@ -1582,7 +1495,7 @@ The **P** makes an **influence** test to determine whether they know someone in 
 
 ---
 
-### **I Force an Event** — **influence** —
+### I Force an Event — influence —
 
 When you want to accelerate or provoke an event (e.g., a hearing, a court decision, arrival of the guard, acceptance of a bribe, opening of a fair, or outbreak of a revolt), you may make an **influence** test.
 - The event you push for must have some narrative or social foundation unless it’s minor (like finding a place to stay even though all rooms are booked).
@@ -1600,7 +1513,7 @@ When you want to accelerate or provoke an event (e.g., a hearing, a court decisi
 
 No assistance rolls are allowed for this test.
 
-### **I have a feeling there’s more here** — **investigation** —
+### I have a feeling there’s more here — investigation —
 
 When a **P** suspects they haven’t found all the important information in a location or something is missing, they may make this test to check whether they were right.
 - **Full success** — the GM tells you one thing you missed, if one exists.
@@ -1609,7 +1522,7 @@ When a **P** suspects they haven’t found all the important information in a lo
 
 The GM may use this move to reveal only significant information — it’s also a tool for the GM to point players to important, previously overlooked details.
 
-### **I instill fear** — **intimidation** —
+### I instill fear — intimidation —
 
 A **P** uses intimidation to induce fear or compliance in a target. On a **full success** or a **partial success** (plus **1 fatigue**, or more if the target is resistant or the situation is unfavourable — GM’s call), you force the creature(s) to do one chosen effect:
 - stop moving;
@@ -1625,7 +1538,7 @@ A **P** uses intimidation to induce fear or compliance in a target. On a **full 
 
 The GM decides fatigue cost adjustments and whether an outcome suits the scene.
 
-### **I Perform** — **performance** —
+### I Perform — performance —
 
 The **P** uses their artistic talent — singing, dancing, acting, or any other form — to influence the emotions and behavior of others.
 - **Full success** — gain **3 performance points**.
@@ -1642,7 +1555,7 @@ Each performance point (unless stated otherwise) may be spent to:
 - **Find shelter** — someone offers you a safe place to stay; costs **2 points**.
 - **Your own ideas** — propose an effect fitting your performance; GM approval required.
 
-### **I Foresee the Future** — **religion** or **intuition** —
+### I Foresee the Future — religion or intuition —
 
 - When used with **religion**, it requires a one-hour ritual and the sacrifice of a **component**.
 - When used with **intuition**, it requires one hour of meditation and the sacrifice of a **resource**.
@@ -1662,7 +1575,7 @@ Each foresight point may be spent immediately or saved for later in the same ses
 - Create a **minor prophetic effect** in the scene (e.g., a candle flickers, a shadow forms a meaningful shape) to draw narrative attention to something important.
 - **Your own idea** — propose how your insight manifests; GM decides if it fits the fiction.
 
-### **I Know How This Works** — **technology** —
+### I Know How This Works — technology —
 
 When the **P** interacts with a machine or tool, they may make a roll to determine how familiar they are with its workings.
 - **Full success** — gain **3 technique points**, and you may buy **1 additional** for **1 fatigue**.
@@ -1686,7 +1599,7 @@ Each **technique point** (unless stated otherwise) may be spent to:
 - **Operate** a simple, unfamiliar tool — costs **2 points**.
 - **Operate** a complex, unfamiliar tool or device (e.g., a wheeled machine or vehicle) — costs **4 points**.
 
-### **I Lead the Way** — **survival** —
+### I Lead the Way — survival —
 
 One or two **P** may choose to lead the exploration:
 - **Full success** — gain **2 points**.
@@ -1704,7 +1617,7 @@ Each point gained from this test may be spent once to:
 - **Shorten the journey by 2 days**.
 - **Propose your own narrative effect** — must make sense in the story; GM decides if it applies.
 
-### **I Pretend to Be Someone Else** — **deception**, **performance** —
+### I Pretend to Be Someone Else — deception, performance —
 
 - **Full success** — you are unrecognizable, but you will expose yourself if:
     - you ask more than **3 questions** whose answers would be obvious to the person you’re impersonating, in the eyes of your audience;
@@ -1716,7 +1629,7 @@ Each point gained from this test may be spent once to:
 - You may gain **advantage** through creative disguise or convincing roleplay.
 - The number of allowed questions and commands does not reset — it applies to the entire duration of the deception _operation_.
 
-### **I Sell a Lie** — **deception** —
+### I Sell a Lie — deception —
 
 - The GM may rule that a specific lie has no chance of fooling the target — e.g., a king will not believe the queen has a secret lover because his spies track her every move.
 - A complicated, strongly accusatory lie, a lie directed at **privileged authority** or higher, or similar claims will not pass unless the **P** has something they can offer as evidence — e.g., a man’s nightshirt found in the queen’s chamber that could not possibly fit the king, or paid false testimony from a chambermaid.
@@ -1728,7 +1641,7 @@ Each point gained from this test may be spent once to:
     - you take **1 splinter** and **2 fatigue** as the stress of improvising, and you manage to invent something plausibly convincing on the spot — allowed only for narratively low-stakes lies.
 - **Failure** — besides immediate consequences, the GM decides whether your actions advance the clock / reduce reputation / cause similar fallout.
 
-### **I Perform a Ritual** — **religion, arcana** —
+### I Perform a Ritual — religion, arcana —
 
 Rituals require the sacrifice of a **treasure, component, resource, or material**, a **downtime action**, and a **quiet, uninterrupted place**.  
 On a **partial success**, if the **P** wants the ritual to succeed, they must pay **2 development points**.
@@ -1749,7 +1662,7 @@ A ritual may allow the **P** to:
 - Ask **one key question about the past** — the GM must answer.
 - **Create an arcana** — the **P** and GM decide its effect; **the GM has final say**.
 
-### **I’m grasping at straws** — appropriate trait —
+### I’m grasping at straws — appropriate trait —
 
 The **P** decides to do something clearly and extremely dangerous — such as leaping across a chasm, sneaking unseen through open guard lines, deceiving a bandit chief in his own den where failure could mean violence, climbing a slick wall that’s the only escape, or swimming through a flooded tunnel that’s far too long to reach the end safely.
 - This move can be used **only as a last resort**, when all other methods have failed.
@@ -1758,7 +1671,7 @@ The **P** decides to do something clearly and extremely dangerous — such as le
 - **Failure** — you fail, and in addition to the normal consequences, you gain **6 fatigue** and draw a **physical or mental status** (whichever fits the situation).
 - Instead of these default penalties, the GM may assign other consequences that better fit the **narrative**.
 
-### **I Seduce** — **persuasion, influence, performance, deception** —
+### I Seduce — persuasion, influence, performance, deception —
 
 The **P** may attempt to seduce an NPC for one night (for longer relationships, see **downtime actions** section) — for pleasure or advantage.
 
@@ -1772,7 +1685,7 @@ The GM determines how difficult the target is to seduce and applies the appropri
 - **Partial success** — you spark interest but don’t act on it; you may gain **one non-critical piece of information** from the NPC or small favor.
 - **Failure** — besides immediate narrative consequences, the GM decides whether your actions advance the clock, reduce **reputation**, or cause similar fallout.
 
-### **I Try to Read Them** — **intuition** —
+### I Try to Read Them — intuition —
 
 The **P** attempts to discern whether their interlocutor is lying, hiding something, or otherwise being deceptive.
 - **Full success** — the **P** realizes the NPC hasn’t told the whole truth and gains **advantage** on a social test to draw out the missing information.
@@ -1784,7 +1697,7 @@ The **P** attempts to discern whether their interlocutor is lying, hiding someth
     - The GM reveals only part of the information — e.g., _“You suspect X held a letter from the baron, but you can’t confirm whether he opened it.”_
 - **Failure** — the **P** believes the NPC has nothing more to add, is hiding nothing, or simply cannot be read at all.
 
-### **I Push Through Difficult Terrain** — **resilience, athletics, survival, dexterity** —
+### I Push Through Difficult Terrain — resilience, athletics, survival, dexterity —
 
 The **P** attempts to climb a slippery rock face, push through blocking enemies, wade across mud or thorns, or perform similar feats. Choose the **trait** that fits the situation.
 - **Full success** — you may discard **1 failure die** from another **P**’s traversal test (unless they rolled only one die) — your progress is steady enough to help them — or you may instead apply a **narrative rule**.
@@ -1793,9 +1706,7 @@ The **P** attempts to climb a slippery rock face, push through blocking enemies,
 
 Use this move **only outside of combat**. During a fight, a similar attempt with a **partial success** should simply **trigger an enemy reaction** instead.
 
-###### ChatGPT powiedział:
-
-### **I Steer** — **animal handling, technology** —
+### I Steer — animal handling, technology —
 
 Sometimes a **P** is controlling a vehicle or mount in a risky situation, or attempts an unusual maneuver while driving — e.g., jerk the reins so the horses pull the wagon onto its side. Use this move for that.
 
@@ -1811,7 +1722,7 @@ Break the **P**’s intended action into distinct objectives (examples):
 
 Each objective you listed costs **1 control point** to satisfy. The GM adjudicates whether objectives are compatible and may assign extra consequences or trade-offs if they conflict.
 
-### **I Interrogate** — **persuasion, intimidation** —
+### I Interrogate — persuasion, intimidation —
 
 When you try to extract information from an unwilling target.
 - **Full success** — you may ask **4 questions**, and the GM must answer them truthfully.
@@ -2179,8 +2090,6 @@ All of the following items are light and require at least **1 hour of rest or do
 18. **Gravity Charge** – reverses gravity in a zone for **1 round**. Creatures without footing fall and take **fall damage**. Flying creatures crash immediately and take fall damage. Can lift the entire party to rooftop height.
 19. **Deconfigurator** – automatically disarms one **mechanical trap**.
 20. **Slime Bomb** – apply **SLOWED** to as many creatures in a zone as your **Ranged** test successes +1. If you exceed the number of enemies, hit allies or yourself instead.
-
-###### ChatGPT powiedział:
 
 #### Technology
 
