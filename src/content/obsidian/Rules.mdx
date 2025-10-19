@@ -203,7 +203,7 @@ The goal of the game is not to win — it’s to tell a story. The GM is neither
 - **main die** — one die in a roll (different color or first from left) whose result may trigger an additional effect.
 - **HP** — hit points; an abstract measure of endurance, not literal wounds. Restored after a scene.
 - **fate dice** — bonus dice used to alter the narrative or add to a roll.
-- **critical injury dice** — used to avoid death when HP drops below 0; losing them represents real wounds.
+- **critical damage dice** — used to avoid death when HP drops below 0; losing them represents real wounds.
 - **condition** — a short-term effect from combat (e.g., **STUNNED**, **BLEEDING**) applied by weapons or powers.
 - **critical success** — two rolled 6s; grants maximum effect and one bonus fate die.
 - **critical failure** — two rolled 1s; automatic failure and a new **splinter** for the character.
@@ -330,6 +330,7 @@ The goal of the game is not to win — it’s to tell a story. The GM is neither
 - A **critical failure** with a 1 on the main die does **not** remove an existing **splinter**.
 - A **splinter** never triggers when rolling only one die.
 - When a **splinter** activates, the **P** describes what interfered with their action.
+- Example: A player wants to jump over a hole in a ruined staircase - he rolls 3 dice on **athletics**, and gets 1, 5, 6 - normally he would have a full success and would succeed without consequences, but he has a **splinter** that lowers the result of his test by one step - so he achieves a partial success, he jumps over, but he gets **fatigue**.
 
 ---
 
@@ -380,13 +381,13 @@ Each **P** has a level in every trait — from 1 to 4 — and rolls that many di
 ### Slots
 
 - Each **P** has **10 shared slots** for **HP**, **inventory**, and **fatigue**. The number of slots represents both the **P’s** carrying capacity and their HP.
-- **HP** restores after a scene if conditions allow.
+- HP is restored after the scene if the conditions allow it - every 4 restored HP turns into 1 **fatigue**.
+- Each point of **fatigue** occupies 1 slot, reducing both HP and carrying capacity (you must drop something if you run out of space). HP and capacity blocked by **fatigue** don’t recover until the **fatigue** is removed.
 
 ---
 
 ### Fatigue
 
-- Each point of **fatigue** occupies 1 slot, reducing both HP and carrying capacity (you must drop something if you run out of space). HP and capacity blocked by **fatigue** don’t recover until the **fatigue** is removed.
 - If you have **6+ fatigue**, you gain a **disadvantage** for every roll.
 - At **10 fatigue**, roll for **critical damage** and receive:
     - **+1 madness point**
@@ -449,7 +450,7 @@ Each **P** has a level in every trait — from 1 to 4 — and rolls that many di
 1. **WEAKENED** – **disadvantage** on tests using **physical attributes**.
 2. **WOUNDED** – whenever you roll a partial success or a failure, gain 1 **fatigue**.
 3. **MAULED** – your wounds are so deep that every damage die deals +1 damage.
-4. **SOAR** – each failure on a **physical** test costs you one **critical injury die**.
+4. **SOAR** – each failure on a **physical** test costs you one **critical damage die**.
 5. **SHOCKED** – you can’t benefit from armor.
 6. **CUT OPEN** – every **1** rolled on any die lowers your highest result in the pool by **2**; altered dice don’t count toward criticals.
 
@@ -468,7 +469,7 @@ Each **P** has a level in every trait — from 1 to 4 — and rolls that many di
 
 ### Dealing Damage
 
-- Each success (4–6) on an attack (melee, aiming, magic) deals **2 damage**, unless something allows for more.
+- Each success (4–6) on an attack (melee, aiming, magic) deals **2 damage**, unless something states otherwise.
 - Each failure (1–3) represents potential damage from the opponent.
 
 ---
@@ -616,7 +617,7 @@ When **P**’s HP drops exactly to zero, they receive a **scar** — roll on the
 |**Light crossbow**|1|On 1 on the main die it requires reloading; armor piercing 1.|
 |**Repeating crossbow**|2|Requires reloading after 3 shots; armor piercing 1.|
 |**Hand crossbow**|0/5|Can be combined with melee weapon; range = 1 zone; attack = melee **or** ranged; doesn’t reveal position if hidden.|
-|**Musket**|2|On 1 on the main die you gain **stunned**; on 2 it requires reloading; success = 3 dmg, armor piercing 2.|
+|**Musket**|2|On 1 on the main die you gain **DEAFENED condition**; on 2 it requires reloading; success = 3 dmg, armor piercing 2.|
 |**Pistol**|0/5|Can be combined with melee weapon; on 1 on the main die it requires reloading; attack = melee **or** ranged.|
 
 ---
@@ -696,7 +697,7 @@ When **P**’s HP drops exactly to zero, they receive a **scar** — roll on the
 - **Silent** – outside combat: appear unnoticed within line of sight (not teleportation; can’t bypass barriers or terrain). In combat: after using it, you automatically gain **HIDDEN** when entering a hidden zone (see zone effects), and such zones don’t give you **disadvantage** to attack.
 - **Veteran** – after your action, you can perform a free **maneuver** (grapple, trip, disarm, etc.).
 - **Brutal** – your next attack deals +1 damage per success.
-- **Conjurer** – influence (but not create) an element in the scene (fire, ice, shadow, wind, water, etc.) to cause a single narrative effect (e.g. block passage, dampen light, slam someone down). Can be chosen only if you have 2 **magic** or 2 **nature**.
+- **Conjurer** – influence (but not create) an element in the scene (fire, ice, shadow, wind, water, etc.) to cause a single narrative effect (e.g. block passage, dampen light, slam someone down). Can be chosen only if you have 2 **arcana**, **nature** or **religion**.
 - **Unyielding** – ignore one chosen status/condition until the end of the scene or your next failed test. Each additional use in the same scene costs 1 more **fatigue**. If you fail and blocked more than one effect, only the last ignored one applies.
 - **Hunter** – instantly find a nearby track if it exists, or erase your and your party’s tracks.
 - **Immortal** – you can reroll 1 critical damage die.
@@ -784,8 +785,8 @@ When **P**’s HP drops exactly to zero, they receive a **scar** — roll on the
 
 - What you can do with your spell points:
     - **2 points** → always available basics (missile, short buffs).
-    - **3 points** → standard “battle spells” (group, flight, barrier).
-    - **4 points** → strong, scene-shaping effects (entire scene, long buffs).
+    - **3 points** → standard “battle spells” (group effect, flight, barrier).
+    - **4 points** → strong, scene-shaping effects (entire scene effect, long buffs).
     - **5+ points** → epic, rare, and spectacular (disasters, session-long rituals).
 
 ---
@@ -1099,12 +1100,12 @@ Forms aren’t limited to animals — when learning another type, like a monster
 - If an effect is global (e.g., something tries to inflict fear on everyone in a zone), the **P** with the highest relevant attribute defends, but with **disadvantage**.
 - Every fight should have an **objective** beyond simply eliminating the enemies.
 - If a **P**’s declared action stays within system mechanics, they may achieve the goal in any logical way (e.g., “I jump, grab the chandelier, and kick the enemy away,” or “I grab a bottle from the table and smash it on his head before trying to stab him with a knife”).
-- **Summary:** When you attack, one roll determines everything:
-    - you hit if any die shows 4+;
-    - damage = number of successes (4–6);
-    - on a partial or failure, the enemy hits back for each 1–3.  
-        Example: 3 dice → one 4, two 2s = you deal 1 damage, take 2.  
+- **Summary:** One roll determines everything:
+    - you hit if any die shows 4+; damage = number of successes (4–6) x weapon demage;
+    - on a partial or failure, the enemy hits back for each 1–3 x weapon demage.  
+        Example: 3 dice → one 4, two 2s = you deal 1 x weapon damage, take 2 x weapon damage.  
         1 Armor blocks 1 enemy die; 3 Armor = block 3 per fight.
+    - on 6 enemy can not react.
 
 ---
 
@@ -1188,7 +1189,7 @@ Whenever a **P** rolls a critical failure in combat (two 1s), in addition to nor
 - Usually, the last roll in a **P** turn should determine the enemy’s reaction — **P** will rarely roll more than once per turn.
 - If the **P** rolls: 6 = the enemy may narratively reposition and take a **failed** action; 4–5 = the enemy gets a move and makes a **soft move** (e.g., deal damage, perform a maneuver, force a defensive test for a potential **hard move**); 1–3 = the enemy makes a **hard move**, e.g., a special attack, applying a status without a test, or **2 soft moves**.
 - **Soft move** — a lighter consequence without defense, or a defensive test against a heavier one (damage / maneuver / attempt to apply a status / power / attempt to apply a weaker condition). **Hard move** — a heavier consequence without defense, or two lighter ones without defense (damage / maneuver / attempt to apply a status / power / apply a condition / attempt to apply a stronger condition).
-- Example: the **P** rolls a 4 and deals their damage; the enemy responds by attempting a **hard move** (apply a status), forcing a **Will** test (psychic attack). If the **P** then rolls: 6 = avoids the consequence; 4–5 = gains the status or takes damage (the **P** chooses); 1–3 = gains the status **and** takes damage.
+- Example: the **P** rolls a 4 and deals their damage; the enemy responds by attempting a **hard move** (apply a status), forcing a **Will** test (psychic attack). If the **P** then rolls: 6 = avoids the consequence; 4–5 = gains the **status** or takes damage (the **P** chooses); 1–3 = gains the status **and** takes damage.
 - Second example: the **P** rolls a 3, and the enemy responds with a **hard move** (apply a status) — the **P** randomly receives a **psychic** status (mental attack).
 - Enemies don’t have full stat blocks — if you need a test (e.g., **dexterity**, **will**, **nature**), assume a default attribute value based on their power tier:
     - **Easy/pawn** — **1 die, 1 HP**.
@@ -1202,7 +1203,7 @@ Whenever a **P** rolls a critical failure in combat (two 1s), in addition to nor
     - **Hunger of Slaughter (powerful) — monster** — HP: 18 | Damage: 3 (teeth and claws) — armor penetration 1 | Armor: 4 | Special: 2 moves + each damage die it deals restores 1 HP.
     - Behavior: Resembles a wolf without skin. No eyes, only nostrils — it smells blood and fatigue. Moves in a shaky, spasmodic way, as if it didn’t control its body. Can mimic the voices of victims it devoured. Trembles with ecstasy when someone dies nearby. Born of alchemical experiments.
 - Enemies can use **powers** just like **P**: they pay 1 HP to do so, or they may use a power when the **P** shows 1 (or 1–2 for stronger foes) on the **main die**.
-	- if a **P** didn’t make a roll during their turn, the enemy may activate their ability only by sacrificing HP.
+	- If a **P** didn’t make a roll during their turn, the enemy may activate their ability only by sacrificing HP.
 - Powerful enemies have 2 **base damage**, and strong ones have 1.
 - Enemies grouped in one place act together narratively — e.g., two archers in the same zone volley at a **P** in an adjacent zone at once, even if mechanically they only leverage the damage dice from one **P** roll; or three knifemen cut a **P** in a massed strike, supporting each other, still using only the damage dice from that single **P** roll.
 - **NPC control sequence** (use the same for **P**):
@@ -1324,18 +1325,20 @@ At the end of each session, you gain 2 **development points** (unless the GM dec
 ### Races
 
 - **Human** (see *Lore* to chose area of origin):
-    - Choose any **power** and justify it narratively.
-    - Increase one **trait** by 1, up to a maximum of 3. You may raise one you haven’t advanced yet. You can’t start with level 3 in **melee, aim, defense, arcana,** or **nature**.
+    - **Adaptability** - Choose any **power** and justify it narratively.
 - **Dwarf** (from the **Well** or the **Talking Mountain** — see *Lore*): 
     - **Darkvision** — within 2 zones in combat.
     - **Immune** to disease and poison — automatically discard the **POISONED** condition and **WEAKENED** status (if you would receive one randomly, you receive none instead).
-    - Oba podgatunki są dalekimi krewnymi.
+    - Subspecies are distant relatives.
+    - They live up to 200 years
 - **Lobo** (see *Lore*):
     - Move on all fours but have four grasping limbs, a prehensile tail, and are excellent climbers — always roll at least 4 **Athletics** dice when climbing walls or ceilings, even smooth or slick ones. You can wield a bow or one-handed weapon while climbing.
+    - They live up to 100 years
 - **Elf** (**Onirari** — white, from the **Dream**; **Volari** — blue, from the **Floating Isles**; see _Lore_):
     - Restore 1 additional **fatigue** when resting.
     - Sharpened senses — always get 1 extra question to the GM during **discover reality** moves or other tests that grant questions.
     - Elf is rather a shape than a race - different elves are not genetically related.
+    - They live up to 300 years
 
 ---
 
@@ -2610,7 +2613,7 @@ A **P** may craft **tactical equipment**. To do so, they must:
 - Disarming and opening is treated as a **single test**.
 - The **P** disarms the trap using **technology/sleight of hand**:
 	- **Full success** — lock is disarmed and opened.
-	- **Partial success** — appropriate **status.
+	- **Partial success** — appropriate **status**.
 	- **Failure** — d20 damage → if the damage reduces the **P** below 0 HP, they roll **critical damage dice** → on a failure, they die.
 - If a trap isn’t one-use, attempting to open the lock again will repeat both the **investigation** and disarming tests, with the risk of the trap being triggered again.
 - If a **P** enters a trapped zone during combat:
