@@ -9,7 +9,7 @@ h1 {
 
 .lore-aside {
   width: 30%;
-  padding-right: '2rem';
+  padding-right: "2rem";
   max-height: calc(100vh - 220px);
   position: sticky;
   top: 85px;
@@ -41,4 +41,4 @@ h1 {
   .lore-main {
     width: 100%;
   }
-}
+}/*# sourceMappingURL=lore.css.map */

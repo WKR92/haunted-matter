@@ -11,7 +11,7 @@ body {
 
 /* Kontener */
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
   min-height: calc(100vh - 60px);
@@ -90,33 +90,27 @@ td {
 }
 
 h1 {
-  color: #ffd700;
-  /* złoty */
+  color: #ffd700; /* złoty */
 }
 
 h2 {
-  color: #ffeb3b;
-  /* jaskrawy żółty */
+  color: #ffeb3b; /* jaskrawy żółty */
 }
 
 h3 {
-  color: #fff176;
-  /* jasny żółty */
+  color: #fff176; /* jasny żółty */
 }
 
 h4 {
-  color: #fffa87;
-  /* jeszcze jaśniejszy */
+  color: #fffa87; /* jeszcze jaśniejszy */
 }
 
 h5 {
-  color: #fffacd;
-  /* lemon chiffon – pastelowo */
+  color: #fffacd; /* lemon chiffon – pastelowo */
 }
 
 h6 {
-  color: #ffffe0;
-  /* light yellow – najjaśniejszy żółty czytelny na czarnym tle */
+  color: #ffffe0; /* light yellow – najjaśniejszy żółty czytelny na czarnym tle */
 }
 
 h3, h4, h5, h6 {
@@ -124,28 +118,24 @@ h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  scroll-margin-top: 80px;
-  /* albo tyle, ile ma twój navbar */
+  scroll-margin-top: 80px; /* albo tyle, ile ma twój navbar */
 }
 
 a[href^="#"] {
-  color: #FFD700;
-  /* złoty */
+  color: #FFD700; /* złoty */
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 /* Hover – jaśniejszy żółty */
 a[href^="#"]:hover {
-  color: #FFFF99;
-  /* pastelowy, czytelny na czarnym tle */
+  color: #FFFF99; /* pastelowy, czytelny na czarnym tle */
   text-decoration: underline;
 }
 
 /* Jeśli chcesz podkreślić aktywny link (opcjonalnie z JS/scrollspy) */
 a[href^="#"].active {
-  color: #FFEB3B;
-  /* intensywniejszy żółty */
+  color: #FFEB3B; /* intensywniejszy żółty */
   font-weight: bold;
 }
 
@@ -153,4 +143,4 @@ a[href^="#"].active {
   .container {
     padding: 1rem;
   }
-}
+}/*# sourceMappingURL=global.css.map */

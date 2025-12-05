@@ -2,12 +2,12 @@
   margin-bottom: 1rem;
 }
 
-.stone-and-leaf-mdx-container {
+.witnesses-of-yesterday-mdx-container {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.stone-and-leaf-aside {
+.witnesses-of-yesterday-aside {
   width: 30%;
   padding-left: 1rem;
   max-height: calc(100vh - 220px);
@@ -21,25 +21,25 @@
   padding-bottom: 2rem;
 }
 
-.stone-and-leaf-main {
+.witnesses-of-yesterday-main {
   width: 70%;
   padding-right: 2rem;
 }
 
 @media (max-width: 840px) {
-  .stone-and-leaf-mdx-container {
+  .witnesses-of-yesterday-mdx-container {
     flex-direction: column;
   }
-  .stone-and-leaf-aside {
+  .witnesses-of-yesterday-aside {
     position: static;
     top: auto;
     max-height: none;
     border: none;
     padding-left: 0;
   }
-  .stone-and-leaf-aside,
-  .stone-and-leaf-main {
+  .witnesses-of-yesterday-aside,
+  .witnesses-of-yesterday-main {
     width: 100%;
     padding-right: 0;
   }
-}/*# sourceMappingURL=stoneAndLeaf.css.map */
+}/*# sourceMappingURL=witnessesOfYesterday.css.map */
