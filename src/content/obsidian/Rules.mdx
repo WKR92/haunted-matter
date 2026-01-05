@@ -343,7 +343,7 @@ The goal of the game is not to win — it’s to tell a story. The GM is neither
 ## Traits
 
 - Each **P** has a level in every trait — from 1 to 4 — and rolls that many dice when making related tests.
-- You may have at most two attributes at level 4, and eight attributes at level 3.
+- You may have at most two attributes at level 4, and six attributes at level 3.
 
 ### Physical
 
@@ -751,6 +751,12 @@ When **P** HP drops exactly to zero or they lose all of their **critical damage 
 - **Awakened** – once per scene you can cast a simple spell even without magic or nature; act as if you had 2 successes to spend on parameters, or spend 2 extra **fatigue** for a third success.
 - **Slayer** – your next attack, if it hits, inflicts **TERRIFIED**. Costs 2 **fatigue** and works only once per target.
 - **Shaman** – sense the presence of souls, magic, or corruption in the current scene (even without a clear source), or grant yourself resistance to one chosen element until the end of the scene.
+- **Priest** — you may advance **religion** to level 4. Your spells still have no cost, and in addition to a full success they also succeed when you roll 4–5 on the **main die** (this counts as a partial success, but the opponent has only 1 damage die in their reaction). You can never advance any other attribute to level 4 except **will**.
+    - If you have **will** at level 4, you also succeed at casting a spell when you roll a 3 on the main die (the outcome is exactly the same as if you had rolled a 4-5 on the main die), unless the entire roll was a failure.
+    - You cannot purchase this power if you already have level 4 in another attribute.
+- **Mage** — you may advance **arcana** to level 4. On a 4–5 on the **main die**, you gain a second free success when casting spells, to be spent on spell parameters. You can never advance any other attribute to level 4 except **mind**.
+    - If you have **mind** at level 4, you gain the second free success when casting spells also when you roll a 6 on the **main die**.
+    - You cannot purchase this power if you already have level 4 in another attribute.
 
 ---
 
@@ -771,21 +777,22 @@ When **P** HP drops exactly to zero or they lose all of their **critical damage 
 ### Spellcasting Mechanics
 
 - Magic functions as a **power**. Each spell cast costs **1 fatigue**.
-- Roll **arcana** or **nature** — you may use it only if you have at least 2 points in that attribute — and if you achieve at least a partial success, you add 1 extra success to your pool.
+- Roll **arcana** or **nature** — you may use it only if you have at least 3 points in that attribute — and if you achieve at least a partial success, you add 1 extra success to your pool.
 - The GM and **P** determine spell parameters — each higher level of a parameter costs an additional success:
     - **Scale:** single target (including self) (1) • group/zone (2) • entire scene (3)
     - **Complexity:** simple (2 dmg/success) (1) • demanding (3 dmg/success) (2) • extreme (4 dmg/success) (3)
     - **Duration:** instant/up to 2 turns (0) • scene (1) • hour (2) • day (3) • whole session (4)
     - **Range:** up to 2 zones (0) • each extra zone costs 1 success.
+- Spell effects cast by a character without the Mag / Druid / Priest power cannot include parameters that cost 3 or more successes.
 - If you have fewer successes than required for your intent, you may **reduce parameters** as you wish, as long as you keep the spell’s core idea.
 - Partial success:
     - In combat → enemy reaction
     - Out of combat → pay 1 extra **fatigue** or lose 1 success from your pool.
 - **Religion** instead of **arcana/nature**:
-    - Casting doesn’t cost **fatigue**, but only works on a full success.
-- **Your spells can’t harm you**, but can harm allies.
-- **GM may reject an impossible effect** regardless of success count.
-- **Monster magical powers** cost them neither HP nor fatigue.
+    - Casting a spell does not cost **fatigue** and does not cause corruption, but it only works on a full success. On a partial success when casting with religion, the spell fails, but the opponent always reacts as if they had only 1 damage die.
+- Your spells do not harm you directly (they can still harm you indirectly, e.g. falling rocks), but they can harm allies.
+- GM may reject an impossible effect regardless of success count.
+- Monster magical powers cost them neither HP nor **fatigue**.
 
 ---
 
@@ -830,14 +837,15 @@ If you roll **three ones**, trigger the **Magical Catastrophe Table** (regardles
 - A critical failure (two ones) forces **P** to roll 1d6 on the Corruption Table.
 - Each time **P** rolls on this table, they invent a physical mutation — it can be small — fitting the rolled effect.
 - Demons in the world of **Zaya** are the result of advanced corruption caused by spellcasting or alchemy — twisted souls trapped in distorted bodies.
-- Corruption effects can be reversed during downtime by making sacrifices to the gods.
+- Permanent corruption effects can be reversed during downtime by making sacrifices to the gods.
 
-|1|1 **fatigue** permanently|
+|No.|Effect|
 |---|---|
+|1|1 **fatigue** permanently|
 |2|Permanently lose 1 level in a social attribute where you have more than 1 die|
 |3|+1 madness point|
 |4|–1 armor permanently|
-|5|Gain 1 development point|
+|5|Gain 1 splinter permanently and 1 development point|
 |6|You may make a minor magical effect permanent — discuss with GM|
 
 Negative effects can be reversed with a downtime action at a surgeon.
@@ -1328,7 +1336,7 @@ At the end of each session, you gain 2 **development points** (unless the GM dec
 | Replace one power with another                                                                                                                                                     | 4         |
 | +1 critical damage die                                                                                                                                                             | 6         |
 | Destiny point                                                                                                                                                                      | 8         |
-| Additional HP / inventory / fatigue slot                                                                                                                                           | 6         |
+| Additional HP / inventory / fatigue slot (max 14 - this limit can only be exceeded by arcana)                                                                                      | 6         |
 | New weapon specialization                                                                                                                                                          | 4         |
 | Immunity to one chosen status (can be purchased only once)                                                                                                                         | 8         |
 | New language                                                                                                                                                                       | 4         |
