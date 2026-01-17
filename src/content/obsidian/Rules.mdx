@@ -1873,28 +1873,29 @@ When you try to extract information from an unwilling target.
 
 ### Group Rolls
 
-- Use this when resolving how the whole group handled a shared action that requires a single **trait** (e.g. everyone sneaks past the guards, everyone climbs a rope, everyone blends into a crowd), or different **traits** (e.g. organizing an event, setting up a trap).
+- Use this to resolve how the whole group handled a shared action that requires a single **trait** (e.g. everyone sneaks past the guards, everyone climbs a rope, everyone blends into a crowd), or different **traits** (e.g. organizing an event, setting up a trap).
 - Everyone rolls their own dice pool and takes their highest result, then converts it into points:
-    - highest 1–3 → 0 pts  
-    - highest 4 → 1 pt  
-    - highest 5 → 2 pts  
+    - highest 1–3 → 0 pts
+    - highest 4 → 1 pt
+    - highest 5 → 2 pts
     - highest 6 → 3 pts
 - Add up the points from all players — this is the group result (S).
-- The group must beat a fixed threshold of **(2 × number of players) + 1** for the test to succeed.
+- The group must beat a threshold of **(2 × number of P) − 1** for the test to succeed. In special circumstances, the **GM** may raise this threshold if the challenge is exceptionally difficult.
 - After seeing S, the group may lower the threshold by spending **fatigue**:
-    - 4 **fatigue** lowers the threshold by 1 point
-    - the threshold can be lowered to a minimum of **(2 × number of players) − 2**
-    - **fatigue** can be split between players in any way, but a single player may spend at most 4 **fatigue** on this test
-    - fatigue does not increase S; it only lowers the threshold
+    - 4 **fatigue** lowers the threshold by 1 point.
+    - The threshold can be lowered to a minimum of **(2 × number of P) − 4** (up to 3 steps total, even if the base threshold was increased due to challenge scale).
+    - **Fatigue** can be split between players in any way, but a single **P** may spend at most 3 **fatigue** on this test.
+    - Fatigue does not increase S; it only lowers the threshold.
 - If S ≥ the current threshold, the test succeeds; if S < the current threshold, the test fails.
-- The breakdown below shows how often the group succeeds on group rolls in a typical situation (**5 players**, each rolling **3 dice**), assuming optimal use of fatigue:
-    - S ≥ 11 → success without fatigue: ~44%
-    - S = 10 → success for **4 fatigue**: ~16%
-    - S = 9 → success for **8 fatigue**: ~14%
-    - S = 8 → success for **12 fatigue**: ~11%
-    - S ≤ 7 → failure (the threshold cannot be lowered further): ~15%
+- The breakdown below shows how often the group succeeds on group rolls in a typical situation (5 mid-level **P**, with dice pools of 1, 2, 2, 3, and 4), assuming optimal use of fatigue:
+	- S ≥ 9 → success without **fatigue**: ~56.8%
+	- S = 8 → success for 4 **fatigue**: ~15.1%
+	- S = 7 → success for 8 **fatigue**: ~11.8%
+	- S = 6 → success for 12 **fatigue**: ~8.1%
+	- S ≤ 5 → failure (the threshold cannot be lowered further): ~8.2%
 
 ---
+
 ### Opposed Tests
 
 When two sides act directly against each other — for example, two **P** grappling — both roll using the appropriate **trait**, and whoever gets **more successes** wins.  
@@ -1947,7 +1948,8 @@ You can apply this rule not just to direct conflicts, but to **any key moment** 
 
 ##### **15-Minute Framework**
 
-1. **GM** describes conditions — weather and terrain.
+1. **GM** describes conditions — weather and terrain, e.g. *your wagon struggles through the snow, the blizzard lashes your faces, the cold bites even through fur coats; still, merchant caravans appear on the road, because people have to live somehow, and society would collapse without transport.*
+
 2. **Group survival roll**.
 3. Resolve group and individual outcomes (clockwise around the table):
     - **Group Success** — the team travels safely — individual results:
@@ -1965,7 +1967,7 @@ You can apply this rule not just to direct conflicts, but to **any key moment** 
             - Ask the GM 1 question or request 1 clue.
         - **Partial success** — you suffer an accident and gain a **physical status**.
         - **Failure** — you barely make it through; roll for both a **physical** and **mental status**.
-4. **Descriptions:** each **P** narrates 1-2 sentences about what happened to them — how they found something, got hurt, spoke with someone, etc.
+4. **Descriptions:** each **P** narrates 1-2 sentences about what happened to them — how they found something, got hurt, spoke with someone, etc — based on their own result, the group’s result, and the narrative framing.
 5. **Event or rumor:** the GM introduces a change in the world or a consequence of past deeds.
 6. **Wrap-up:** the GM summarizes the journey in two sentences.
 
@@ -2010,7 +2012,7 @@ If exploration is meant to be more than just traveling from point A to B — an 
 - Each segment is led by a different player (clockwise). The first leader is chosen randomly. A leader never repeats unless, for some reason, everyone has already been one.
 - The leader chooses the segment’s main **trait**, explaining how they intend to use it. Every other **P** chooses a separate **trait** to support the leader’s action. All **traits** from the same **trait category** as the leader’s chosen trait suffer **disadvantage**.
 - **P** perform a **group test**, rolling on their chosen **traits**, and each describes their contribution to the narrative in 1–2 sentences. The GM ensures narrative coherence.
-- For chases, the base success threshold of the group test is reduced to **(2 × number of players)**.
+- For chases, the base success threshold of the group test is reduced to **(2 × number of players) - 2**.
 - In a race, the leader’s chosen **trait** can never be selected again — not even in the segment in which it was chosen.
 - **P** cannot reuse **traits** they themselves used in previous segments.
 - The GM applies **advantage** and **disadvantage** to **P** rolls to reflect the situation — e.g. carrying a child while fleeing means rolling with **disadvantage**.
