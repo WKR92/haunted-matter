@@ -1202,7 +1202,9 @@ Forms aren’t limited to animals — when learning another type, like a monster
         - if an enemy stands up, the **P** who triggered that reaction (or the nearest logical one) rolls 1d6 → on 4–6: deals 3 damage.
     - Maneuvers do not trigger opportunity attacks.
     - Opportunity attacks can be made with any weapon type.
-- if a **P** didn’t make any roll during their turn — for example, only moved or lit a torch — the enemy may react as if it had scored a **partial success**, dealing **1 die of damage**.
+- If a **P** didn’t make any roll during their turn — for example, only moved or lit a torch — the enemy may react as if it had scored a **partial success**, dealing **1 die of damage**.
+    - In this case, the enemy reaction clock (see *Enemy Control by the GM*) advances as if the **main die** rolled a 6, and this does not activate any enemy abilities.
+    - If **P** applied a condition to an enemy that requires resolution with a test (or a similar effect), and **P** did not make any test during this turn, the **G** rolls k6 × enemy scale (1-weak, 2-standard, 3-strong, 4-mighty) for the purpose of that resolution.
 - At the end of the round, after all **P** turns, any enemy who hasn’t reacted to any **P** action may make one move.
 - If an effect is global (e.g., something tries to inflict fear on everyone in a zone), the **P** with the highest relevant attribute defends, but with **disadvantage**.
 - Every fight should have an **objective** beyond simply eliminating the enemies.
@@ -1330,6 +1332,7 @@ Whenever a **P** rolls a critical failure in combat (two 1s), in addition to nor
         - Powerful enemies **always act at least once per such round** (beside first), even if the die didn’t point to them — if the pointer passes the last step of the last enemy and a powerful enemy hasn’t reacted, set the marker to **1** within that enemy’s range regardless of the main die result.
             - If there are several, randomly choose which gets the marker.
         - Because of the ordering by power, the higher the **main die** result, the more likely a weaker enemy reacts (and the round might wrap back to a powerfull enemy). With a low **main die** result, enemies fire off their special abilities.
+        - If **P** did not make any roll during their turn, the enemies **reaction clock** advances as if the **main die** rolled a 6, but this does not activate any enemy abilities.
         - Online tool link — [https://wkr92.github.io/enemy-selector](https://wkr92.github.io/enemy-selector).
 
 ---
@@ -1358,7 +1361,7 @@ Whenever a **P** rolls a critical failure in combat (two 1s), in addition to nor
 | Nr | Name        | Effect                                                                                                                                                                                                                                                        | Example                   |
 | -- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
 | 1  | COVERED     | Ranged/magical attacks from outside this zone have **disadvantage**.                                                                                                                                                                                          | wall, boulders, trees     |
-| 2  | ELEVATED    | Entering costs **disadvantage** or **fatigue**. **Advantage** on ranged attacks if target is not in the same or different ELEVATED Zone, +1 range. Being pushed off moves you 2 zones.                                                                                                                                | hill, balcony             |
+| 2  | ELEVATED    | Entering costs **disadvantage** or **fatigue**. **Advantage** on ranged attacks if target is not in the same or different ELEVATED Zone, +1 range. Being pushed off moves you 2 zones.                                                                        | hill, balcony             |
 | 3  | NARROW      | Max 2 creatures. **Disadvantage** on attacks/magic. Each damage die deals 1 damage less. A group must spend an action on movement to pass through — it cannot stop inside.                                                                                    | corridor, canyon          |
 | 4  | DANGEROUS   | Every failure and every 1–2 on the **main die** (5–6 for enemies) results in a fitting status.                                                                                                                                                                | pit, fire, trap           |
 | 5  | RESTRICTING | Leaving costs **fatigue** or gives **disadvantage**, unless you spend an action to break free.                                                                                                                                                                | swamp, dense thickets     |
@@ -1367,7 +1370,7 @@ Whenever a **P** rolls a critical failure in combat (two 1s), in addition to nor
 | 8  | OBSCURED    | **Disadvantage** on attacks/magic for creatures inside and against creatures inside. Allows you to gain the **HIDDEN/INVISIBLE** condition at no fatigue cost. Grants bonus movement to those affected by this condition.                                     | fog, smoke, darkness      |
 | 9  | CONNECTING  | Grants 1 free movement to an adjacent zone (if moving requires a test, it must still be made).                                                                                                                                                                | bridge, passage           |
 | 10 | PULLING     | Every failure and every 1–2 on the **main die** (5–6 for enemies) in adjacent zones pulls the creature into this zone.                                                                                                                                        | wind, vortex, magnet      |
-| 11 | SEPARATING  | Has 1 to 3 walls. Walls cannot be crossed. You cannot target creatures behind a wall with attacks or abilities.                                                                                                                                               | behind a wall, tree wall  |
+| 11 | SEPARATING  | It has between 1 and 3 walls that cannot be crossed. Walls block movement, attacks, and the use of abilities between zones. Diagonal movement into or out of this zone is prohibited.                                                                         | behind a wall, tree wall  |
 | 12 | AFFECTIVE   | Start of turn: 1 **fatigue**. Grants 1 additional guaranteed success when casting a spell, if the caster ends their turn in this zone.                                                                                                                        | high pressure, dread      |
 
 ---
