@@ -3363,21 +3363,21 @@ Use it in scenes where **P** have infiltrated a place, are operating under cover
 - Define what the room is (e.g. guard’s office, cell, bedroom).
 - Choose or roll **4–5 objects** from the object table.
 - Assign contents to each object—first place **plot-relevant information** here, then roll/choose the remaining results from the table or add your own.
-- Add an **Alarm Clock**. The clock has a number of segments equal to the number of objects minus 1, and **P** know this, so they can decide when to withdraw or when to push their luck. By design, **P** should not be able to check everything unless they roll only full successes. Remember that some objects may require more than one test.
+- Add an **Alarm Clock**. The clock has a number of segments equal to the number of objects, and **P** know this, so they can decide when to withdraw or when to push their luck. By design, **P** should not be able to check everything unless they roll only full successes. Remember that some objects may require more than one test.
 - Determine the **NPC reaction** when caught (reaction table).
 - **P** begin interacting with the room using the **move** **Acting Behind Someone’s Back** or **Acting in Hiding**. The **GM** may enforce that only one of these is available in a given scene.
 - Each object is searched with appropriate tests, which may advance the **Alarm Clock**. If an object requires more than one roll, each roll may advance the clock. Example links between tests and actions:
-  - Traps — resolved according to their rules.
   - Locked but untrapped — **nimble hands**/**technology**.
   - Searching documents, rummaging through clutter — **investigation**.
   - Small items, details, concealed things, checking a wardrobe — **perception**.
-  - Secrets:
-    - **perception** or **investigation**, with the **GM** asking **P** whether they risk such a test,
-    - then an additional appropriate test if the find is hard to access (e.g. pulling out a loose brick — **nimble hands**). Hidden things should, by default, be hard to access.
   - Moving, prying, lifting — **athletics**.
   - Reading traces — **survival**.
   - Mechanical puzzles, riddles — **mind**.
   - You may skip adding a test if the object’s contents are meant to be easily accessible.
+- Traps
+  - They operate according to their own rules.
+  - Only the second trap test, to disarm it, advances the **Alarm Clock**.
+  - If a trap guards an object’s contents, no additional test is ever required to find that contents.
 - **Secrets**
   - A secret is not a separate object, but a hidden layer of an existing object (e.g. a false bottom, built-in drawer, false wall).
   - An object may contain only 1 secret.
@@ -3385,6 +3385,8 @@ Use it in scenes where **P** have infiltrated a place, are operating under cover
   - A secret is not revealed automatically. After the obvious contents are found, the **GM** informs **P** that there might be more and asks whether they risk further searching.
   - Discovering a secret requires an additional test (**perception** or **investigation**), subject to all rules of pressured searching and able to advance the **Alarm Clock**.
   - If the secret is hard to access, the **GM** may require another appropriate test.
+  - Only the first test to locate a secret advances the **Alarm Clock**; if there is a second test, it does not affect the clock.
+  - Secrets are the only part of the procedure that increase the number of possible actions **P** can take beyond the number of segments of the **Alarm Clock** — and this is exactly their purpose — so they should be used with their nature in mind.
 - When **P** use the **move Acting Behind Someone’s Back**
   - they do not need to roll for object-assigned tests if nothing guards them (e.g. not locked, hidden, or trapped)—they immediately gain the information/loot; **P** still have a limited number of interactions in this mode.
   - if they do test something (e.g. a lock/secret): a partial success gives **2 fatigue**, and a failure gives no access to the object’s contents, but **P** may retry by spending their interaction point from the used **move**.
@@ -3394,9 +3396,9 @@ Use it in scenes where **P** have infiltrated a place, are operating under cover
 
 ---
 
-#### Object Table (k6)
+#### Object Table (d6)
 
-| k6 | Object                                              |
+| d6 | Object                                              |
 |----|-----------------------------------------------------|
 | 1  | Desk / table                                        |
 | 2  | Cabinet / chest                                     |
@@ -3407,22 +3409,20 @@ Use it in scenes where **P** have infiltrated a place, are operating under cover
 
 ---
 
-#### Content Table (k6)
+#### Content Table (d4)
 
-| k6 | Contents                                   |
-|----|--------------------------------------------|
-| 1  | Information (note, lead, map)               |
+| d4 | Contents                                      |
+|----|-----------------------------------------------|
+| 1  | Information (note, lead, map)                 |
 | 2  | Loot (specific or roll on the **Loot Table**) |
-| 3  | Information + Trap                          |
-| 4  | Loot + Trap                                 |
-| 5  | 2 × Loot                                    |
-| 6  | False lead                                  |
+| 3  | Trap + Information                            |
+| 4  | Trap + 2×Loot                               |
 
 ---
 
-#### NPC Reaction Table (k6)
+#### NPC Reaction Table (d6)
 
-| k6 | Reaction |
+| d6 | Reaction |
 |----|----------|
 | 1  | Blackmail: demands a favor for silence |
 | 2  | Calls the guard / immediate escalation |
@@ -3435,14 +3435,14 @@ Use it in scenes where **P** have infiltrated a place, are operating under cover
 
 #### Minimal Write-Up (Example)
 
-- **Room**: City guard’s office.
+- **Room**: City Guard’s Office.
 - **Objects**:
-  - Desk — Information + Trap (poisoned needle in drawer) → letter about a gold convoy.
-  - Shelf — Information — **investigation** → report ledger with names of spies.
-  - Chest — Loot + Trap (blade cutting hands).
-  - Wardrobe — Loot — **perception** → guard uniform (**advantage** to impersonation).
-  - Cache — 2 × Loot — question to **P**: do you risk **perception**? — loose floorboard — **athletics** — roll twice on the **Loot Table**.
-- **Detection**: **P** use the **move Acting in Hiding** to determine how many object interactions they can afford.
+  - Desk — Trap (poisoned needle in the drawer) + Information (a letter about a released gold convoy).
+  - Shelf — Information (**investigation** → a book: *How to gild so no one can tell you keep a counterfeit at home?*).
+  - Chest — Trap (blade cutting hands) + 2 × Loot.
+  - Wardrobe — Loot (**perception** → guard uniform — **advantage** to impersonation).
+  - Cache — Loot (**mind** → a puzzle blocking access to a brew) + secret → question to **P**: do you risk **perception**? — loose floorboard — **athletics** — a ledger of reports showing which gold is real and which is counterfeit.
+- **Detection**: **P** use the **move** **Acting in Hiding** to determine how many object interactions they can afford.
 - **NPC Reaction**: Calls the guard if they are caught.
 
 ---
