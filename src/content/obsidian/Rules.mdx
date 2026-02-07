@@ -2152,11 +2152,11 @@ Examples of Using Non-Social Traits:
 
 | Result                  | Effect |
 | ----------------------- | ------ |
-| ❌ **Failure**           | **P** either advance the success clock + roll **d6 × remaining segments of the failure clock**, where each 1–3 advances the **failure clock** by 1, OR **P** do not advance the success clock + roll **d6 × remaining segments of the failure clock**, where each 1–2 advances the **failure clock** by 1 and a consequence segment appears. The appropriate option depends on the narrative; if failing a given stage would make further progress impossible, use the variant with a consequence segment. |
+| ❌ **Failure**           | **P** either advance the success clock + roll **d6 × remaining segments of the failure clock**, where each 1–3 advances the **failure clock** by 1, OR **P** do not advance the success clock + roll same amount of dice, where each 1–2 advances the **failure clock** by 1 and a consequence segment appears. The appropriate option depends on the narrative; if failing a given stage would make further progress impossible, use the variant with a consequence segment - **P** may also use this approach to try to avert an imminent filling of the **failure clock**, reducing the chance of advancing its segments at the cost of an additional roll. |
 | ◒ **Partial success**   | **P** advance the success clock + roll **d6 × remaining segments of the failure clock**. Each 1–2 on a die advances the **failure clock** by **1**. |
 | ✅ **Full success**      | **P** advance the success clock + roll **d6 × half of all segments of the success clock**. Each 5–6 on a die reduces the **failure clock** by **1**. |
 
-- When rolling to advance the **failure clock**, **P** never roll more than 6d6, even if the clock has more segments.
+- When advancing the failure clock, **P** never roll more dice than the total number of failure clock segments minus 2 (e.g. for an 8-segment clock: max 6; for a 7-segment clock: max 5, etc.).
 - **Consequence segments** resulting from **P** actions force **P** to come up with a different way to achieve what they intended, repeating the test for that segment — but they cannot use the same **attribute** as in the test that caused the consequence, nor do the same thing again.
 - Sometimes it is possible to predict all sequence rolls before it begins — in that case, **P** may prepare a detailed plan in advance.
 - Sometimes the GM will present a scene with exactly as many rolls as there are clock segments, with all of them prepared in advance, when the situation requires very specific actions.
@@ -3386,7 +3386,7 @@ Use it in scenes where **P** have infiltrated a place, are operating under cover
   - Discovering a secret requires an additional test (**perception** or **investigation**), subject to all rules of pressured searching and able to advance the **Alarm Clock**.
   - If the secret is hard to access, the **GM** may require another appropriate test.
   - Only the first test to locate a secret advances the **Alarm Clock**; if there is a second test, it does not affect the clock.
-  - Secrets are the only part of the procedure that increase the number of possible actions **P** can take beyond the number of segments of the **Alarm Clock** — and this is exactly their purpose — so they should be used with their nature in mind.
+  - Secrets are the only part of the procedure that increase the number of possible actions **P** can take beyond the number of segments of the **Alarm Clock** — and this is exactly their purpose — so they should be used with their nature in mind, but they do not necessarily have to conceal something tied to the plot.
 - When **P** use the **move Acting Behind Someone’s Back**
   - they do not need to roll for object-assigned tests if nothing guards them (e.g. not locked, hidden, or trapped)—they immediately gain the information/loot; **P** still have a limited number of interactions in this mode.
   - if they do test something (e.g. a lock/secret): a partial success gives **2 fatigue**, and a failure gives no access to the object’s contents, but **P** may retry by spending their interaction point from the used **move**.
@@ -3409,14 +3409,16 @@ Use it in scenes where **P** have infiltrated a place, are operating under cover
 
 ---
 
-#### Content Table (d4)
+#### Content Table (d6)
 
-| d4 | Contents                                      |
+| d6 | Contents                                      |
 |----|-----------------------------------------------|
 | 1  | Information (note, lead, map)                 |
 | 2  | Loot (specific or roll on the **Loot Table**) |
 | 3  | Trap + Information                            |
 | 4  | Trap + 2×Loot                               |
+| 5  | Empty |
+| 6  | Repeat the roll and add a treasure to the rolled object |
 
 ---
 
