@@ -138,7 +138,7 @@
     - [How to Build an NPC](#how-to-build-an-npc)
     - [Building Tension](#building-tension)
     - [Building Fights](#building-fights)
-    - [Room Search Procedure](#room-search-procedure)
+    - [Pressured Room Search Procedure](#pressured-room-search-procedure)
     - [How to write scenarios](#how-to-write-scenarios-a-thought-process-by-example)
 - [Farewell note](#farewell-note)
 
@@ -654,10 +654,7 @@ When **P** HP drops exactly to zero or they lose all of their **critical damage 
 
 #### Conditions on Hit
 
-- If the **main die** shows:
-    - **4–5** (for **P**)
-    - **1–2** (for the enemy)  
-        → you may apply a **condition** (e.g. **BLEEDING**) if the weapon allows it.
+- Sometimes a weapon can apply a **condition**, e.g. **BLEEDING** (most often enabled by fusing the weapon with an **exotic material**) — this effect is usually triggered by the **main die**. Additionally, for a weapon to apply a **condition**, it must deal damage to the enemy with at least one die (**armor** may stop it).
 - **P** must **remember** that the enemy is under a **condition** — its effect is resolved at the start of that enemy’s next turn.
 
 ---
@@ -1547,9 +1544,6 @@ Similarly, if a room contains a secret — for example, a loose floorboard hidin
 Each point can be spent on a discreet action such as _reading a document unnoticed_, _taking a letter_, or _stealing a robe from a wardrobe_.
 
 **P** cannot exceed the limit — they’re restrained by **natural authority** — an instinct for self-preservation. If they ignore it and push further, they face immediate consequences: typically triggering an alarm or being spotted.
-
-When using the **Acting Behind Their Backs** move, **P** don’t need to roll for object-related tests while searching a room if nothing protects the object — e.g., it isn’t locked or hidden. They automatically receive the **information** or **loot** instead, though their number of interactions is still limited.  
-If they do roll, a **partial success** costs **1 fatigue**, and a **failure** costs **2 fatigue**.
 
 ### I sneak by — stealth —
 
@@ -3356,85 +3350,124 @@ Example:
 
 ---
 
-### Room Search Procedure
+### Pressured Room Search Procedure
 
-Searching rooms in _Haunted Matter_ is meant to create **tension, risk, and a sense of progress**. Every roll is a chance to uncover a secret — but also a step closer to being discovered. This procedure helps the GM prepare a structured, consequence-driven scene without writing a list of items in advance.
+Searching rooms in *Haunted Matter* is meant to create tension, risk, and a sense of progress. Every roll is a chance to uncover a secret—but also a step closer to being discovered. This procedure lets the **GM** prepare a scene with a clear structure and consequences, without having to write a detailed item list in advance.
 
-Use it in scenes where **P** have infiltrated somewhere, are operating under cover or behind someone’s back/unnoticed, where there is a risk of detection, etc.
+Use it in scenes where **P** have infiltrated a place, are operating under cover or behind someone’s back/unnoticed, where there is a real risk of detection, etc.
 
-#### How to Use
+---
+
+#### How to Use — Single P
 
 - Define what the room is (e.g. guard’s office, cell, bedroom).
 - Choose or roll **4–5 objects** from the object table.
-- Assign contents to each — place **story-relevant information** first, then roll or pick from the table for the rest.
-- Add an **Alarm Clock** (4–6 segments). The **P** usually won’t have time to check everything unless they roll full successes. Some objects may require more than one test.
-- Determine the **NPC reaction** if they’re caught (see reaction table).
-- The **P** begin interacting with the room using the **I act Behind Their Backs** or **I act in Secret move**.
-- Each object is searched with appropriate tests that may advance the **Alarm Clock**. If the object requires multiple rolls, each can move the clock.  
-    Example skill links:
-    - Traps – per their rules.
-    - Locked but untrapped – **sleight of hand/technology**.
-    - Searching documents or piles – **investigation**.
-    - Small details, hidden spots, furniture – **perception**.
-    - Secrets – first ask if **P** risks the test (**perception** or **investigation**), then a second test if access is tricky (e.g. loosening a brick – **sleight of hand**).
-    - Pushing, lifting, forcing – **athletics**.
-    - Reading traces – **survival**.
-    - Mechanical puzzles – **mind**.
-    - You may skip a test if the content is clearly accessible.
-- When **P** use **I act Behind Their Backs**, they skip rolling for unguarded objects (not locked or hidden) — they simply gain the info/loot. They still have limited actions. When they do roll, partial success causes **1 Fatigue**, failure **2 Fatigue**, as in the move’s description.
+- Assign contents to each object—first place **plot-relevant information** here, then roll/choose the remaining results from the table or add your own.
+- Add an **Alarm Clock**. The clock has a number of segments equal to the number of objects minus 1, and **P** know this, so they can decide when to withdraw or when to push their luck. By design, **P** should not be able to check everything unless they roll only full successes. Remember that some objects may require more than one test.
+- Determine the **NPC reaction** when caught (reaction table).
+- **P** begin interacting with the room using the **move** **Acting Behind Someone’s Back** or **Acting in Hiding**. The **GM** may enforce that only one of these is available in a given scene.
+- Each object is searched with appropriate tests, which may advance the **Alarm Clock**. If an object requires more than one roll, each roll may advance the clock. Example links between tests and actions:
+  - Traps — resolved according to their rules.
+  - Locked but untrapped — **nimble hands**/**technology**.
+  - Searching documents, rummaging through clutter — **investigation**.
+  - Small items, details, concealed things, checking a wardrobe — **perception**.
+  - Secrets:
+    - **perception** or **investigation**, with the **GM** asking **P** whether they risk such a test,
+    - then an additional appropriate test if the find is hard to access (e.g. pulling out a loose brick — **nimble hands**). Hidden things should, by default, be hard to access.
+  - Moving, prying, lifting — **athletics**.
+  - Reading traces — **survival**.
+  - Mechanical puzzles, riddles — **mind**.
+  - You may skip adding a test if the object’s contents are meant to be easily accessible.
+
+- **Secrets**
+  - A secret is not a separate object, but a hidden layer of an existing object (e.g. a false bottom, built-in drawer, false wall).
+  - An object may contain only 1 secret.
+  - The **GM** adds secrets manually—no more than 1–2 per procedure.
+  - A secret is not revealed automatically. After the obvious contents are found, the **GM** informs **P** that there might be more and asks whether they risk further searching.
+  - Discovering a secret requires an additional test (**perception** or **investigation**), subject to all rules of pressured searching and able to advance the **Alarm Clock**.
+  - If the secret is hard to access, the **GM** may require another appropriate test.
+
+- When **P** use the **move Acting Behind Someone’s Back**
+  - they do not need to roll for object-assigned tests if nothing guards them (e.g. not locked, hidden, or trapped)—they immediately gain the information/loot; **P** still have a limited number of interactions in this mode.
+  - if they do test something (e.g. a lock/secret): a partial success gives **2 fatigue**, and a failure gives no access to the object’s contents, but **P** may retry by spending their interaction point from the used **move**.
+    - traps are the exception and are resolved by their own rules.
+
+- If the entire building is being searched (e.g. a house **P** broke into), the procedure remains the same—just divide the objects among rooms.
 
 ---
 
-#### Object Table (d6)
+#### Object Table (k6)
 
-|d6|Object|
-|---|---|
-|1|Desk / table|
-|2|Cabinet / chest|
-|3|Shelf / rack|
-|4|Wardrobe / bed|
-|5|Hidden compartment (floor/wall)|
-|6|Extra element (furnace, altar, window, statue, etc.)|
-
----
-
-#### Content Table (d6)
-
-|d6|Content|
-|---|---|
-|1|Information (note, clue, map)|
-|2|Loot (specific or roll on **Loot Table**)|
-|3|Information + Trap|
-|4|Loot + Trap|
-|5|2× Loot|
-|6|False lead|
+| k6 | Object                                              |
+|----|-----------------------------------------------------|
+| 1  | Desk / table                                        |
+| 2  | Cabinet / chest                                     |
+| 3  | Shelf / bookcase                                    |
+| 4  | Wardrobe / bed                                      |
+| 5  | Cache (floor/wall)                                  |
+| 6  | Extra feature (stove, altar, window, statue, etc.)  |
 
 ---
 
-#### NPC Reaction Table (d6)
+#### Content Table (k6)
 
-|d6|Reaction|
-|---|---|
-|1|Blackmail — demands a favor for silence|
-|2|Calls guards / immediate escalation|
-|3|Social conflict — bribe or favor|
-|4|Runs for help — returns soon|
-|5|Pretends not to see, will use it later|
-|6|Surprised ally — might help, but risks it|
+| k6 | Contents                                   |
+|----|--------------------------------------------|
+| 1  | Information (note, lead, map)               |
+| 2  | Loot (specific or roll on the **Loot Table**) |
+| 3  | Information + Trap                          |
+| 4  | Loot + Trap                                 |
+| 5  | 2 × Loot                                    |
+| 6  | False lead                                  |
 
 ---
 
-#### Minimal Prep Example
+#### NPC Reaction Table (k6)
+
+| k6 | Reaction |
+|----|----------|
+| 1  | Blackmail: demands a favor for silence |
+| 2  | Calls the guard / immediate escalation |
+| 3  | Social conflict: bribe / favor |
+| 4  | Runs for help — will return shortly |
+| 5  | Pretends not to notice, but will use it later |
+| 6  | Surprised ally — may help, but takes a risk |
+
+---
+
+#### Minimal Write-Up (Example)
 
 - **Room**: City guard’s office.
 - **Objects**:
-    - Desk – Info + Trap (poisoned needle) → letter about a gold convoy.
-    - Shelf – Info – **investigation** → report book naming local spies.
-    - Chest – Loot + Trap (blade cuts hands).
-    - Wardrobe – Loot – **perception** → guard’s uniform (**advantage** to impersonate).
-    - Hidden compartment – 2× Loot – ask **P** if they risk **perception** → loose floorboard – **athletics** → roll twice on **Loot Table**.
-- **Detection**: **P** use **I act in Secret move** (6-segment clock) to see how many interactions they can risk.
-- **NPC Reaction**: Calls the guards if they’re caught.
+  - Desk — Information + Trap (poisoned needle in drawer) → letter about a gold convoy.
+  - Shelf — Information — **investigation** → report ledger with names of spies.
+  - Chest — Loot + Trap (blade cutting hands).
+  - Wardrobe — Loot — **perception** → guard uniform (**advantage** to impersonation).
+  - Cache — 2 × Loot — question to **P**: do you risk **perception**? — loose floorboard — **athletics** — roll twice on the **Loot Table**.
+- **Detection**: **P** use the **move Acting in Hiding** to determine how many object interactions they can afford.
+- **NPC Reaction**: Calls the guard if they are caught.
+
+---
+
+#### Group Search
+
+If more than one **P** takes part, apply the rules below.
+
+- Always resolved using the **move Acting in Hiding** (a partial success advances the **Alarm Clock** by 1, a failure by 2).
+- The **GM** presents the names of objects in the room(s).
+- The party chooses a lead **P**. The lead chooses an object first, makes the test, and drops out of the procedure.
+- The test result determines the next acting **P**, counting clockwise from the current one:
+  - full success: +1
+  - partial success: +2
+  - failure: +3
+  - Skip **P** who have already acted or dropped out.
+- Once per procedure, the party may swap the currently acting **P** for another, even if that **P** has already acted or dropped out.
+  - The swapped **P** drops out and does not make a test this cycle.
+  - The swapping **P** gains **fatigue**; if they had already acted, they also drop out.
+  - The swap may occur after the object’s nature is revealed, but before the test.
+  - If an object requires more than one roll, the swap must occur before the first roll, unless it is a secret.
+- If all **P** have acted once (except the swapped one) and the **Alarm Clock** is not filled, the procedure may begin another cycle with the same order.
+- The procedure may be interrupted at any time—each further roll is a risk **P** knowingly accept.
 
 ---
 
