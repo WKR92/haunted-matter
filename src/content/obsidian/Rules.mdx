@@ -1144,14 +1144,12 @@ Forms aren’t limited to animals — when learning another type, like a monster
 - There is no initiative. **P** always act first, in order determined by **dexterity** + **perception** – **fatigue** → if tied, whoever declares first acts first. If **P** are surprised, they roll with **disadvantage** on all rolls in their first turn.
 - By default, a **P** may move and perform one **action** per turn. You can move double distance if you do nothing else that turn.
 - You state what you want to achieve on your turn, and the GM tells you whether it’s possible and which mechanic to apply. This is a narrative game. The system assumes the character acts because the player describes it, not because it’s written on their sheet.
-- Enemies have no turns. They act only in reaction to the **P**’s moves. On a **partial success** or **failure**, enemies act effectively; on a **full success**, their attempts fail. One enemy reacts to each **P** action.
-    - Usually, the last roll in a **P** turn should determine the enemy’s reaction — most of the time **P** roll only once per turn.
-    - An enemy, when reacting, has a **move and an action**.  If their action is an attack, they deal damage equal to **their weapon’s damage × the number of failures (1–3)** rolled by the P in their test.
-- Interpreting the dice results:
-    - Highest die: 6 → full success for the **P** → the enemy only gets a move, but no action (they do not react).
-    - Highest die: 4–5 → partial success → both **P** and the enemy got move + action; **P** goes first and enemy reacts.
-        - Pair of 5s – if the **P** did not roll a 6 but rolled at least two 5s, all dice showing 3 deal no damage in this exchange (the enemy cannot use them).
-    - Highest die: 1–3 → failure → the enemy may perform a stronger reaction (2 action of different kind), e.g., deal damage AND perform a **maneuver**.
+- Enemies have no turns. They act only in reaction to the **P**’s moves. On a **partial success** or **failure**, enemies act effectively; on a **full success**, their attempts fail. Only one enemy reacts mechanically to the move of a single **P** (though narratively they may act as a group). Usually, the last roll in a **P** turn should determine the enemy’s reaction — most of the time **P** roll only once per turn.
+- Interpretation of die results:
+  - highest result: **6** → full success for **P** → after **P** act, the enemy only gets a move and performs a narratively failed action (e.g. their attack misses).
+  - highest result: **4–5** → partial success → after **P** act, the enemy gets a move and one action.
+    - Double 5 (without a 6): ignore failures showing 3.
+  - highest result: **1–3** → failure → after **P** act, the enemy may take a move and 2 actions.
 - Damage:
     - Each 4–6 rolled by the **P** deals damage equal to the damage of their weapon.
     - Each 1–3 deals damage equal to the enemy’s weapon damage, if the enemy reacts and can use that many failures according to their class.
@@ -1193,18 +1191,18 @@ Forms aren’t limited to animals — when learning another type, like a monster
     - Monsters are rare but terrifying — at the start of combat against one, roll **Will**:
         - partial success = **disadvantage** on your next roll,
         - failure = gain the **FRIGHTENED condition**.
-    - Each zone they occupy, in addition to its own effects, also applies the effects of a **DANGEROUS** zone to their enemies — every failure and a 1–2 on the **main die** results in an appropriate **status** — this does not stack **statuses** if the zone is already **DANGEROUS**.
+    - Each zone they occupy, in addition to its own effects, also applies the effects of a **DANGEROUS** zone to their enemies — this does not stack **statuses** if the zone is already **DANGEROUS**.
     - Powerful enemies deal 1 **base damage** (added to their normal result).
     - They are **resistant to conditions** – these apply only if the **P** rolls 5–6 on the **main die**, or pays **fatigue**; other results have no effect.
     - They are **resistant to conditions and maneuvers** — these only take effect if the **P** rolls a **5–6 on the main die**, or a **4** and pays **fatigue**; any other result means no effect.
 		- If an effect would apply a **condition** or **maneuver** to a powerful enemy **without a roll**, the **P** rolls a **d6** to determine the result of the **main die**.
 - **Morale:** when the commander dies or enemy numbers drop to ⅔, the one with the highest attribute rolls **Will**: failure = all surrender or flee. If only one non-boss enemy remains, they **always surrender** unless escape or a suicidal attack makes narrative sense. Morale is used to **end drawn-out fights** – apply it consistently. Strong and powerful enemies fight to the end if it is in their interest.
 - When strong or powerful enemies reach 0 HP, they roll a d6 for **critical damage** - on a 1-3 they die, on a 4-6 they live with 1 HP.
-- If **P** rolls a half success and there are no failures, the opponent performs a status attack or a non-damaging action, such as a **maneuver**.
-- If **P** has inflicted an effect on an opponent that requires a roll (e.g., the **CHARMED condition**), and he hasn't made any rolls himself on his turn - meaning there's no **main die** result the enemy could use - then G rolls a d6 to determine the **main die** result only for resolving that effect.
-- If a **P** didn’t make any roll during their turn — for example, only moved or lit a torch — the enemy may react as if it had scored a **partial success**, dealing **1 die of damage**.
-    - In this case, the enemy reaction clock (see *Enemy Control by the GM*) advances as if the **main die** rolled a 6, and this does not activate any enemy **powers**.
-    - If **P** applied a **condition** to an enemy that requires resolution with a test (or a similar effect), and **P** did not make any test during this turn, the **G** rolls d6 × enemy scale (1-weak, 2-standard, 3-strong, 4-mighty) for the purpose of that resolution.
+- If **P** roll a partial success and there are no failures on the dice, the enemy performs a **maneuver**, takes an additional move, or enters **defense** (the first attack against them before their next turn has **disadvantage**).
+- **Turns with no roll**:
+  - If **P** make no roll during their turn (e.g. they only move and light a torch), the enemy may react as if there had been a partial success with one damage die.
+  - During such a turn, the enemy reaction clock (see Enemy Control by the **GM**) advances as if the **main die** showed a 6, and no enemy abilities are activated.
+  - During such a turn, if **P** applied an effect to an enemy that requires a roll to resolve (e.g. the **CHARMED** condition) and there is no **main die** result to determine that effect, **P** roll d6 to establish the **main die** result solely for resolving that effect.
 - At the end of the round, after all **P** turns, any enemy who hasn’t reacted to any **P** action may make one move.
 - If an effect is global (e.g., something tries to inflict fear on everyone in a zone), the **P** with the highest relevant attribute defends, but with **disadvantage**.
 - Every fight should have an **objective** beyond simply eliminating the enemies.
@@ -1354,23 +1352,18 @@ Each time **P** suffers a critical failure in combat (two ones), in addition to 
 
 ### Enemy Control by the GM
 
-- An enemy reacts after the **P** action resolves. If that action killed the enemy who would have reacted, another enemy reacts instead — the GM chooses one that best fits the narrative.
-- Usually, the last roll in a **P** turn should determine the enemy’s reaction — **P** will rarely roll more than once per turn.
-- If the **P** rolls: 6 = the enemy may narratively reposition and take a **failed** action; 4–5 = the enemy gets a move and makes a **soft move** (e.g., deal damage, perform a maneuver, force a defensive test for a potential **hard move**); 1–3 = the enemy makes a **hard move**, e.g., a special attack, applying a status without a test, or **2 soft moves**.
-- Soft move — a minor consequence with no defense, or a defensive test against a serious one.  
-- Hard move — a serious consequence with no defense, or two minor ones with no defense.  
-- Usual minor consequences — damage/**maneuver**/attempt to apply a **status**/attempt to apply a **condition**.  
-- Usual serious consequences — **status**/**condition**.
-- Example: the **P** rolls a 4 and deals their damage; the enemy responds by attempting a **hard move** (apply a status), forcing a **Will** test (psychic attack). If the **P** then rolls: 6 = avoids the consequence; 4–5 = gains the **status** or takes damage (the **P** chooses); 1–3 = gains the status **and** takes damage.
-- Second example: the **P** rolls a 3, and the enemy responds with a **hard move** (apply a status) — the **P** randomly receives a **psychic** status (mental attack).
-- Enemies don’t have full stat blocks — if you need a test (e.g., **dexterity**, **will**, **nature**), assume a default attribute value based on their power tier:
-    - **Easy/pawn** — **1 die, 1 HP**.
-    - **Standard foe** (e.g., guard, thug, wolf) — **2 dice**, **6–8 HP**.
-    - **Strong foe** (e.g., veteran, chief, knight) — **3 dice**, **10–12 HP**.
-    - **Powerful foe/boss** (e.g., demon, monster, master) — **4 dice**, **15–20 HP**.
-- **Applying a status** — every enemy has a special attack they can use as their action. It forces a **P** to roll an appropriate defense (usually **Resilience** for a physical status or **Will** for a psychic one). Partial success = **fatigue**; failure = the corresponding **status**. The status type should match the creature (a knight tends to inflict a physical status; a telepath, a psychic one).
-    - This is often used when the enemy has no damage dice to spend (e.g., they lost them due to **disadvantage**).
-- You may give each unique enemy their own **special traits** (always active) and **powers** (triggered by the **main die**) that are unique to them, e.g. *moves through walls for free*, *walks on walls and ceilings*, *immune to fire*, *flies*, etc. Enemies may of course also have **powers** available to **P**.
+- The enemy’s reaction occurs after **P** act. If that action killed the enemy who was meant to react, another one reacts — chosen by the **GM** / the next one on the **reaction tracker** — in a way that fits the narrative.
+- Usually, the last roll made by **P** in their turn determines the enemy’s reaction — rarely will **P** test more than once per turn.
+- If **P** roll:
+  - 6 = the enemy may make a move and a narratively **failed action** (e.g. misses an attack).
+  - 4–5 = the enemy performs 1 **action**. If they have 0 damage dice, they perform a **maneuver**, reposition with an additional move, or prepare a **defense** (the first attack against them before their next turn has **disadvantage**).
+  - 1–3 = the enemy performs 2 **actions**.
+- **Action** — e.g. dealing damage/**maneuver**/using an item/movement that creates consequences.
+- If the enemy’s action is an attack, they deal damage equal to **their weapon’s damage × the number of failures (1–3)** rolled by **P** in their roll.
+- Example: **P** roll a 4 and deal their damage; the enemy has no damage dice and is too far to perform a **maneuver**, so they prepare a **defense**.
+- Second example: **P** roll a 3; in response, the enemy performs two **actions** — damage and a disarming **maneuver**.
+- Enemies, like **P**, may buy additional **actions** using excess dice by paying HP — e.g. **P** roll 4, 2, 2, so in response to the attack the enemy may use 2 dice: one to deal damage and discard the other, paying 1 HP for it, in order to also **perform** a maneuver.
+- You may give each enemy their own **special traits** (always active) and **powers** (triggered by the **main die**) that are unique to them, e.g. *moves through walls for free*, *walks on walls and ceilings*, *immune to fire*, *flies*, etc. Enemies may of course also have **powers** available to **P**.
   - **Special traits** should be available only to **strong** (one) and **mighty** enemies (up to two).
   - Enemies do not activate their **powers** on their own — they trigger based on the **main die** rolled by **P**. For example, on a 1–2 on the **main die** the monster applies the **SLOW condition** (toxin on its teeth), and on a 3–4 it knocks everyone in its zone prone.
     - If **P** did not make a roll during their turn, the enemy cannot activate **powers**.
@@ -1380,14 +1373,11 @@ Each time **P** suffers a critical failure in combat (two ones), in addition to 
   - **Slaughter Hunger** — **mighty** monster — HP: 18 | Damage: 3 (teeth and claws) and 1 base | Armor penetration: 1 | Armor: 4 | Special: 2 moves + every 2 dice used to deal damage in a single roll restore 1 HP to it | Powers: on a 1–2 on the **main die** it applies the **POISONED condition** (toxin on its teeth), and on a 3–4 it knocks everyone in its zone prone.
   - Behavior: Resembles a wolf without skin. It has no eyes, only nostrils — it smells blood and fatigue. It moves in an unsteady, spasmodic way, as if it has no control over its own body. It can mimic the voices of victims it has devoured. When someone dies nearby, it trembles in ecstasy. It is the result of alchemical experiments.
 - Enemies grouped in one place act together narratively — e.g., two archers in the same zone volley at a **P** in an adjacent zone at once, even if mechanically they only leverage the damage dice from one **P** roll; or three knifemen cut a **P** in a massed strike, supporting each other, still using only the damage dice from that single **P** roll.
-- **NPC control sequence** (use the same for **P**):
-    - **Conditions** — check any that require activation.
-    - **Narrative effects** — check other states imposed by fiction.
-    - **Main die** — what its result indicates.
-    - **Move** — reposition the NPC toward its goal.
-    - **Zone on-enter/stay effect** — resolve any consequences.
-    - **Reaction to the P result** — **soft/hard moves** per the triggering roll.
-    - **Zone end-of-turn effect** — if applicable.
+- NPC Control Order (control **P** the same way):
+  - **Conditions** — check whether the NPC is affected by any **conditions** that require activation.
+  - **Narrative effects** — check other states affecting the NPC introduced by the narrative.
+  - In chosen order: **move** — reposition the NPC according to their goal (and resolve the effect of the zone they enter) or **action**.
+  - **Main die** — resolve what its result indicates (activates enemy **abilities**/zone effects/etc.).
 - **Choosing which enemy reacts:**
     - Pick the one that best advances the fiction. If you want more ramdomness, use this schema:
         - Sort enemies by power and assign **activation ranges**: powerful — 4, strong — 3, regular — 2, easy — 1.
