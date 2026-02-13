@@ -1141,7 +1141,7 @@ Forms aren’t limited to animals — when learning another type, like a monster
 - Combat takes place in the theater of the mind or on a simplified map divided into **zones**. It should be narrative and fast-paced.
 - The battlefield is divided into zones. Each zone represents an area, such as a corridor, room, or part of one. Moving from one zone to another costs one **move**. Each additional zone crossed costs one more **move**. Distances within a zone are abstract — anyone in the same zone can reach anyone else for melee attacks.
     - If the zones are square, you can move diagonally between them — this matters for maps.
-- There is no initiative. **P** always act first, in order determined by **dexterity** + **perception** – **fatigue** → if tied, whoever declares first acts first. If **P** are surprised, they roll with **disadvantage** on all rolls in their first turn.
+- There is no initiative — **P** always begin. The first to act is whoever has an idea, then play proceeds clockwise. The order never changes unless someone is knocked down, in which case they act last. A **P** may always choose to act last. If **P** are surprised, they have **disadvantage** on all rolls during their first turn.
 - By default, a **P** may move and perform one **action** per turn. You can move double distance if you do nothing else that turn.
 - You state what you want to achieve on your turn, and the GM tells you whether it’s possible and which mechanic to apply. This is a narrative game. The system assumes the character acts because the player describes it, not because it’s written on their sheet.
 - Enemies have no turns. They act only in reaction to the **P**’s moves. On a **partial success** or **failure**, enemies act effectively; on a **full success**, their attempts fail. Only one enemy reacts mechanically to the move of a single **P** (though narratively they may act as a group). Usually, the last roll in a **P** turn should determine the enemy’s reaction — most of the time **P** roll only once per turn.
@@ -1156,12 +1156,9 @@ Forms aren’t limited to animals — when learning another type, like a monster
 - Once per turn, you can draw or swap an item/weapon for free.
 - Using an item (like a potion) costs either a move or an action.
 - You can **ready an action** to react to a trigger, e.g. “I strike the moment someone crosses the doorway.”
-- **Numerical advantage** grants +1 to every damage die.
+- **Numerical advantage** in the zone grants +1 to every damage die. Leaving a zone where enemies have **numerical advantage** costs one **fatigue**.
 - **Fatigue** gained in combat cannot force you to discard equipped weapons or armor - when you fill equipment slots occupied by these items with **fatigue**, they remain in place - however, these slots can only be filled last.
-- **Maneuvers:** Instead of attacking, you can attempt **maneuvers** (blinding, knocking down, pushing, etc.). Repeating the same **maneuver** on the same target in consecutive turns applies **disadvantage**. Maneuvers against larger creatures are made with **disadvantage**.
-    - **Disarm** throws the weapon into an adjacent zone chosen by the attacker. Picking it up costs **move/action/triggers an opportunity attack** (choose one).
-    - Standing up after being knocked down costs a move and may trigger an opportunity attack.
-    - Pushes are always performed in a single straight line — you cannot push someone backward and then diagonally, even if you can push across more than 1 zone. In such a case, valid options are e.g. back–back or diagonal–diagonal (unless diagonal movement is blocked by zones).
+- **Maneuvers**: instead of attacking, you may attempt **maneuvers** (such as blinding, knocking down, pushing, etc.). Performing the same **maneuver** against the same target turn after turn imposes **disadvantage**. Maneuvers against larger creatures are made with **disadvantage**. Moving someone with a **maneuver** does not count as the target’s movement and does not expose them to additional costs (such as **fatigue** for leaving a zone where enemies have **numerical advantage**).
 - **Ranged Combat:**
     - Attacking with a ranged (non-thrown) weapon against a target in the same zone is done with **disadvantage**. The maximum range of a ranged weapon equals the character’s **aim** level in zones (max 3).
     - Thrown weapons have a range of 1 zone beyond the attacker’s own but cannot target enemies in the same zone. You can’t throw further.
@@ -1223,19 +1220,11 @@ Forms aren’t limited to animals — when learning another type, like a monster
 
 Those mechanics are recommended.
 
-- **Buying Effects with Successes** — if you roll more than 1 success, you may convert each of them into an additional effect, such as a **maneuver**, movement, using an item, etc. Converting each additional success costs **fatigue**.
+- **Buying Effects with Successes** — if you roll more than 1 success, you may convert each of them into an additional effect, such as a **maneuver**, movement, using an item, etc. Converting each excess success costs **fatigue**.
     - Example: you roll 5, 4, 4, 2 while attacking. You decide to deal damage with the first two successes (5 and 4), and convert the remaining success which would normally deal damage into pushing the enemy, paying 1 **fatigue**. Alternatively, you deal damage using only the 5, and convert both 4s—each for 1 **fatigue** into a push and a knockdown.
     - You can never convert an additional success into an attack.
     - Opponents can use this mechanic just like **P**.
-    - If an action has **disadvantage** and you want to perform it by spending purchased successes (e.g. pushing a creature much larger than yourself), you must spend 2 successes for it to succeed.
-- **Opportunity attacks:**
-    - If an enemy leaves a zone where their side lacks numerical advantage, the **P** who triggered their reaction (or the nearest logical one) rolls 1d6 → on 4–6: deals 3 damage.
-    - Similarly, if a **P** flees a zone where their side lacks numerical advantage and rolls 1–3 on the **main die** in their next roll that turn, they take 3 damage.
-    - The same applies when standing up:
-        - if a **P** stands up and rolls 1–3 on the **main die** in their next roll that turn, they take 3 damage;
-        - if an enemy stands up, the **P** who triggered that reaction (or the nearest logical one) rolls 1d6 → on 4–6: deals 3 damage.
-    - Maneuvers do not trigger opportunity attacks.
-    - Opportunity attacks can be made with any weapon type.
+    - If an action has **disadvantage** and you want to perform it by spending purchased successes (e.g. pushing a creature much larger than yourself), you must spend 2 excess successes for it to succeed.
 - **Mounted combat**:
     – Mounting costs your move; from the next turn you gain **FAST condition**.
     – Falling off counts as interrupting a sustained effect: you take **fatigue** and the **PRONE condition**.
@@ -1254,6 +1243,7 @@ Those mechanics are recommended.
   - If a flying creature is knocked down twice during a fight, it cannot fly again until the end of the encounter — the number of knockdowns persists even if the creature temporarily loses flight and later regains it.
   - By default, temporary flight lasts 3 turns (4 for someone who applied it to themselves and whose turn is still ongoing). If the last of those turns ends while still in the air, the creature falls (unless it is an **ELEVATED zone**, in which case they simply stand on the ground, as they were already at that height), and this counts as a knockdown.
   - You cannot benefit from flight if it is physically impossible — e.g. a flying creature fighting inside a low building does not gain the **FAST condition** and cannot move up or down.
+  - A flying creature that ended its turn on the upper layer of a zone does not count toward **numerical advantage**.
 - **Walking on Walls and Ceilings**:
   - Works under the same rules as flying, with the following differences:
     - It does not grant the **FAST condition**.
@@ -1277,7 +1267,7 @@ Those mechanics are recommended.
 
 ### Conditions
 
-- **BLINDED / DEAFENED** – reduces **melee and aiming** to 1 die (no modifiers can change this) - the affected sense is inactive - it usually lasts 2 turns - if stacked multiple times, the effect is extended each time and the affected person takes 2 unavoidable damage.
+- **BLINDED / DEAFENED** – reduces **melee and aiming** to 1 die (no modifiers can change this) - the affected sense is inactive - it usually lasts 2 turns - if stacked multiple times, the effect is extended each time and the affected person takes 2 **unavoidable damage**.
 - **BLEEDING**/**POISONED**/**BURNING** — stacking them causes 2 unavoidable damage — you take 2 unavoidable damage at the end of each turn while you have this **condition** — how do you try to deal with it?
     - I spend my turn to remove the **condition** (e.g. rolling in dirt to put out the flames), and the enemy acts as if I had a partial success and 2 failure dice.
     - I endure — I take no damage and remove the **condition** only on a **full success** of my actions, but I act with **disadvantage**; a partial success gives me **fatigue**, and a failure gives me a **physical status**.
@@ -1292,8 +1282,9 @@ Those mechanics are recommended.
 - **GRAPPLING** – you can drag a creature you’ve grabbed, but all your other actions have **disadvantage** – you can release it at any time.
 - **GRAPPLED / ENTANGLED** — you can’t move and attacks against you have **advantage** – at the start of your turn you roll **athletics** – full success: you break free and get move and action with **disadvantage**; partial: you may spend **fatigue** to break free and choose either a move or an action with **disadvantage**, if you don’t pay you treat the result as a failure; failure: you only get an action with **disadvantage**, no move, and you can’t break free.
 - **STUNNED** – the affected target loses their turn, and every action taken against them has **advantage** – each damage die deals +2 additional damage, and the target can’t use Armor - overlapping extends the effect.
-- **PRONE** – actions performed while lying down are made with **disadvantage** (if logical) – attacks against a prone target have **advantage** – standing up costs a move and provokes an opportunity attack.
-- **DISARMED** – each damage die against them deals +1 extra damage – the weapon is thrown into an adjacent zone chosen by the attacker – picking it up costs **move/action/triggers an opportunity attack** (choose one).
+- **PRONE** — actions performed while prone have **disadvantage** (if it makes sense), unless the target is also prone, in which case there is no change. Attacks against a prone target have **advantage**. Standing up after being knocked down costs a move or **fatigue**, and if done in a zone where an enemy is standing, you take 2 damage. Rolling into an adjacent zone counts as movement. A prone character still counts toward **numerical advantage**. A prone **P** is moved to the end of the turn order.
+- **DISARMED** — each damage die deals +1 additional damage to them (does not stack with identical effects). Disarming throws the weapon into an adjacent zone chosen by the one performing the **maneuver**. Picking up the weapon costs a move/action/(**fatigue** + **disadvantage**) — player’s choice.
+- **PUSHED** — the target is moved 1 zone in a direction allowed by movement rules, and until they leave that zone, the first damage they take causes them to fall. You may push someone 2 zones by paying additional **fatigue** (this stacks with the effect of a **RAISED** zone). Pushes are always resolved in a straight line (you cannot push someone backward and then diagonally, even if pushing more than 1 zone — allowed variants are e.g. back–back or diagonal–diagonal, unless a zone blocks diagonal movement).
 - **INVISIBLE / HIDDEN** – cannot be targeted by any non-physical ranged attacks (e.g., mind control) - attacks against the creature are made with **disadvantage** - its own attacks are made with **advantage** - the **condition** ends when the creature enters non-verbal interaction with someone (attack, **power**, touch) or when its duration expires (usually 2 turns).
 
 ---
@@ -1392,6 +1383,13 @@ Each time **P** suffers a critical failure in combat (two ones), in addition to 
         - Because of the ordering by power, the higher the **main die** result, the more likely a weaker enemy reacts (and the round might wrap back to a powerfull enemy). With a low **main die** result, enemies fire off their **powers**.
         - If **P** did not make any roll during their turn, the enemies **reaction clock** advances as if the **main die** rolled a 6, but this does not activate any enemy **powers**.
         - Online tool link — [https://wkr92.github.io/enemy-selector](https://wkr92.github.io/enemy-selector).
+- **Choosing the Enemy’s Target**:
+  - Choose the target that best fits the narrative, or:
+    - Determine the list of possible targets (those the enemy can realistically reach).
+    - Arrange them according to the current turn order.
+    - Use the first **non-main die** from the left.
+      - If there is only one die, the last in the order is always hit.
+    - If the result is higher than the number of targets, loop back to the start of the list and count forward again.
 
 ---
 
@@ -1424,10 +1422,10 @@ Each time **P** suffers a critical failure in combat (two ones), in addition to 
 | 3  | NARROW      | Max 2 creatures. **Disadvantage** on attacks/magic. Each damage die deals 1 damage less. A group must spend an action on movement to pass through — it cannot stop inside. Diagonal movement into or out of this zone is prohibited.                          | corridor, canyon          |
 | 4  | DANGEROUS   | Every failure and every 1–2 on the **main die** (5–6 for enemies) results in a fitting status.                                                                                                                                                                | pit, fire, trap           |
 | 5  | RESTRICTING | Leaving costs **fatigue** or gives **disadvantage**, unless you spend an action to break free.                                                                                                                                                                | swamp, dense thickets     |
-| 6  | UNSTABLE    | A pushed in creature always falls prone if it makes sense. Taking damage knocks you prone unless you pay **fatigue**. Every failure and every 1–2 on the **main die** (5–6 for enemies) results in falling prone at the end of the turn.                      | ice, narrow plank, rubble |
+| 6  | UNSTABLE    | A pushed in creature always falls prone if it makes sense. Taking damage knocks you prone unless you pay **fatigue**. Every failure and every 1–2 on the **main die** (5–6 for enemies) results in falling prone at the end of the turn, even if the turn does not end in that zone.                      | ice, narrow plank, rubble |
 | 7  | SHARP       | Every failure and every 1–2 on the **main die** (5–6 for enemies) deals 1 inevitable damage.                                                                                                                                                                  | thorns, jagged rocks      |
 | 8  | OBSCURED    | **Disadvantage** on attacks/magic for creatures inside and against creatures inside. Allows you to gain the **HIDDEN/INVISIBLE condition** at no **fatigue** cost. Grants bonus movement to those affected by this **condition**.                                     | fog, smoke, darkness      |
-| 9  | CONNECTING  | Grants 1 free movement to an adjacent zone (if moving requires a test, it must still be made).                                                                                                                                                                | bridge, passage           |
+| 9  | CONNECTING  | Grants 1 free move to adjacent zones (according to their rules).                                                                                                                                                                | bridge, passage           |
 | 10 | PULLING     | Every failure and every 1–2 on the **main die** (5–6 for enemies) in adjacent zones pulls the creature into this zone.                                                                                                                                        | wind, vortex, magnet      |
 | 11 | SEPARATING  | It has between 1 and 3 walls that cannot be crossed. Walls block movement, attacks, and the use of abilities between zones. Diagonal movement into or out of this zone is prohibited.                                                                         | behind a wall, tree wall  |
 | 12 | AFFECTIVE   | Start of turn: 1 **fatigue**. Grants one additional guaranteed success when casting spells if the caster starts or ends their turn in this zone.                                                                                                              | high pressure, dread      |
