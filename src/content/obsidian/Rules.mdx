@@ -1155,7 +1155,12 @@ Forms aren’t limited to animals — when learning another type, like a monster
     - Each 1–3 deals damage equal to the enemy’s weapon damage, if the enemy reacts and can use that many failures according to their class.
 - Once per turn, you can draw or swap an item/weapon for free.
 - Using an item (like a potion) costs either a move or an action.
-- You can **ready an action** to react to a trigger, e.g. “I strike the moment someone crosses the doorway.”
+- As your action, you may use **preparation** to set a reaction to a specific trigger, e.g. “I strike as soon as someone crosses the threshold of this room” or “when someone approaches me.”
+  - By choosing this action, you end your turn without a roll, and the enemy acts as if you had rolled a partial success with one damage die. If your prepared action is:
+    - Attack: you deal 3 damage.
+    - Maneuver: it succeeds without a roll.
+    - Defense: you block one enemy damage die or 1 **fatigue**.
+  - By choosing this action, you risk that the trigger may never occur.
 - **Numerical advantage** in the zone grants +1 to every damage die. Leaving a zone where enemies have **numerical advantage** costs one **fatigue**.
 - **Fatigue** gained in combat cannot force you to discard equipped weapons or armor - when you fill equipment slots occupied by these items with **fatigue**, they remain in place - however, these slots can only be filled last.
 - **Maneuvers**: instead of attacking, you may attempt **maneuvers** (such as blinding, knocking down, pushing, etc.). Performing the same **maneuver** against the same target turn after turn imposes **disadvantage**. Maneuvers against larger creatures are made with **disadvantage**. Moving someone with a **maneuver** does not count as the target’s movement and does not expose them to additional costs (such as **fatigue** for leaving a zone where enemies have **numerical advantage**).
@@ -1260,7 +1265,7 @@ Those mechanics are recommended.
 - **Last Defense**:
     - You may sacrifice your action to attempt to avoid incoming **physical** damage. If you do, until the start of your next turn, each time you would take a hit you roll a **endurance** test with **disadvantage** for each **splinter** you currently have:
         - Full success — you avoid the damage and gain one **splinter**.
-        - Partial success — you avoid the damage and draw a **physical status**.
+        - Partial success — you avoid max 6 damage and draw a **physical status**.
         - Failure — the damage goes through.
 
 ---
@@ -1328,7 +1333,7 @@ A mass of weak, similar creatures that are dangerous in numbers.
 
 ### Equipment Damage
 
-Each time **P** suffers a critical failure in combat (two ones), in addition to the normal combat effects and **scratches** (as outside of combat), they roll 1d6 according to the table below. All effects from the table last until repaired. **Arcana** cannot be damaged. For example, if **P** has an arcane weapon and mundane armor, effects that would damage the weapon have no effect.
+Each time **P** suffers a critical failure in combat (two ones), in addition to the normal combat effects and **splinters** (as outside of combat), they roll 1d6 according to the table below. All effects from the table last until repaired. **Arcana** cannot be damaged. For example, if **P** has an arcane weapon and mundane armor, effects that would damage the weapon have no effect.
 
 |d6|Type|Consequence|
 |---|---|---|
@@ -2668,7 +2673,7 @@ All of the following items are light and require at least **1 hour of rest or do
 3. Grants armor/helmet/shield 1 point of magical armor — you can never have more than 4 magical armor.
 4. Grants a weapon +1 damage — a weapon can receive this upgrade only once.
 5. Grants armor/helmet/shield damage reduction 1 — damage reduction can never exceed 1.
-6. Grants armor/helmet/shield a −1 reduction to the enemy’s chance to make an **opportunity attack** — an **opportunity attack** then occurs on a 1–2 on the **main die**, or only on a 1 if this upgrade is applied twice — you can have only 2 such upgrades.
+6. Grants armor/helmet/shield protection against 1 **fatigue**, which can be used once per combat at any moment — you may have a maximum of 2 such upgrades.
 7. A two-handed weapon gains reach into adjacent zones, but such attacks are made with **disadvantage**, and damage is reduced to 2 per die.
 8. Weapon/armor reduces enemy armor penetration by 1 — only one such upgrade may be taken.
 9. Grants an **ability** — choose or roll which — using this **ability** requires paying its standard cost (usually 1 **fatigue**).
